@@ -1,0 +1,130 @@
+.main {
+    width: 100%;
+    background-color: rgba(34, 33, 33, 0.959);
+    transition: 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.navlinks{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.linkText{
+    color: rgba(192, 192, 192, 0.616);
+    font-weight: 100;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.linkText:hover{
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+}
+
+.rightsBox{
+    width: 90%;
+    border-top: 1px solid rgba(196, 196, 196, 0.575);
+}
+
+.rightsText{
+    color: rgba(192, 192, 192, 0.616);
+    text-align: center;
+}
+
+
+.subscriptionBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin:  20px 0px;
+    text-align: center;
+}
+
+.tinylogoToken{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.subscriptionText{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.658);
+}
+
+.emailInputBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emailInput:focus { 
+    outline: none !important;
+}
+
+.emailInput { 
+    width: 70%;
+    padding: 10px 10px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+
+.subscribeButton{
+    width: 30%;
+    margin-left: 5px;
+    background-color: #001530;
+    color: rgb(199, 199, 199);
+    border: none;
+    font-family: "Poppins";
+    font-weight: 600;
+    padding: 12px 0px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.subscribeButton:hover{
+    background-color: rgba(0, 238, 247, 0.658);
+}
+
+@media only screen and (max-width: 800px) {
+    
+    .subscriptionText{
+        font-size: 15px;
+    }
+    .emailInputBox{
+        flex-direction: column;
+    }
+    .emailInput { 
+        width: 95%;
+       margin: 10px 0px;
+    }
+    .subscribeButton{
+        width: 95%;
+    }
+    .main {
+        flex-direction: column;
+        
+    }
+    .navlinks{
+        flex-direction: column;
+        margin: 0px;
+        width: 40%;
+    }
+    .linkText{
+        margin: 10px;
+    }
+    .rightsText{
+        font-size: 10px;
+    }
+}

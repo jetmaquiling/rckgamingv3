@@ -1,0 +1,255 @@
+.main{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    transition: 0.5s;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: rgba(255, 255, 255, 0);
+}
+
+.off {
+    width: 100%;
+    position: fixed;
+    background: #001f47;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+
+.navbar {
+    transition: 0.5s;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.navbarFixed {
+    transition: 0.5s;
+    width: 100%;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tinylogoToken{
+    width: 10%;
+    margin: 0px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 100%;
+}
+
+
+.logoTitle1 {
+    color: rgba(255, 255, 255, 0.900);
+    font-weight: bold;
+    font-size: 25px;
+}
+.logoTitle2 {
+    color: rgba(255, 255, 255, 0.900);
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0px 10px;
+}
+
+.logoTitle3 {
+    color: rgba(255, 255, 255, 0.900);
+    font-weight: 400;
+    font-size: 20px;
+    
+}
+
+
+
+.navbar1 {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.navbar2 {
+    width: 60%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.navbar3 {
+    width: 5%;
+    padding: 0px 0px;
+    cursor: pointer;
+}
+/***************************************************/
+
+.h4animate{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.603);
+    transition: 0.5s;
+    padding: 0px 10px;
+    font-weight: 600;
+}
+
+.h4animate:hover{
+    color: rgba(255, 255, 255, 0.822);
+    transform: translate(0px,5px);
+    transition: 0.2s;
+}
+
+.h5animate{
+    cursor: pointer;
+    font-weight: 600;
+    color: rgba(252, 252, 252, 0.726);
+    font-size: 16px;
+    margin: 10px 0px;
+    transition: 0.5s;
+}
+
+.h5animate:hover{
+    transition: 0.5s;
+    color: rgb(255, 255, 255);
+    transform: translate(5px,0px);
+}
+
+
+/****************************************************/
+
+.buttonContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.buttonBox{
+    margin: 0px 10px;
+    transition: 0.3s;
+    border-bottom: 5px solid rgba(255, 255, 255, 0);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.buttonBox:hover {
+    border-bottom: 5px solid #fff;
+}
+
+.dropDown{
+    color: #fff;
+}
+
+.menuIcon{
+    color: #fff;
+    font-size: 30px;
+}
+
+.optionOpen{
+    width: 200px;
+    background-image: linear-gradient(to left,#23d5abe7, #03316ee3);
+    border-radius: 10px;
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+    position: absolute;
+    top: 85px;
+    animation-name: openOption;
+    animation-duration: 0.5s;
+    box-shadow: 4px 4px 12px 2px rgba(0, 0, 0, 0.384);
+}
+.optionClose{
+    width: 200px;
+    background-image: linear-gradient(#23d5abe7, #03316ee3);
+    border-radius: 10px;
+    padding: 5px;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 85px;
+}
+
+
+
+@keyframes openOption {
+    0%   {
+        transform: translateY(10px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+  }
+
+@media only screen and (max-width: 800px) {
+    
+    .navbar{
+        width: 95%;
+    }
+    .navbar1 {
+        width: 90%;
+    }
+    .navbar2 {
+        width: 0%;
+        display: none;
+    }
+    .navbar3 {
+        max-width: 10%;
+        width: 100px;
+        display: flex;
+        justify-content: flex-end;
+    }
+  
+
+  }
+
+  @media only screen and (max-width: 400px) {
+    .navbar1 {
+        width: 90%;
+    }
+
+    .navbar3{
+        max-width: 10%;
+        display: flex;
+    }
+ 
+
+    .logoTitle1 {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .logoTitle2 {
+        font-weight: bold;
+        font-size: 25px;
+        margin: 0px 0px;
+    }
+    
+    .logoTitle3 {
+        font-weight: 300;
+        font-size: 15px;
+    }
+
+
+ 
+    .tinylogoToken{
+        width: 10%;
+        margin: 0px 5px 0px 0px;
+    }
+
+    .h4animate{
+        transition: 0.1s;
+    }
+     
+
+  }

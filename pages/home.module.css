@@ -1,0 +1,504 @@
+.main {
+    width: 100%;
+    background-color: #001f47;
+    height: 100%;
+    overflow: hidden;
+    background-image: url("/Background/pattern-randomized.svg");
+}
+/**********************************/
+
+.sectionError{
+    height: 100vh;
+    background-size: cover;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section {
+    height: 120vh;
+    background-size: cover;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.section1 {
+    background-image: url("/Background/token.png");
+}
+.section2{
+    background-image: url("/Background/scattered-forcefields.svg");
+    clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
+    margin: -60px 0px;
+    height: 100%;
+    justify-content: center;
+}
+.section3 {
+    height: 100%;
+    margin: -60px 0px;
+    clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
+    justify-content: center;
+    background-color: #fff;
+}
+/*************************************/
+@keyframes bodyanimate {
+    0%   {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+  }
+
+.mainBody {
+    max-width: 1200px;
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    animation-name: bodyanimate;
+    animation-duration: 2s;
+}
+
+.mainBody1 {
+    
+}
+
+.mainBody2{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 120px 0px;
+}
+
+.mainBody3 {
+
+    margin: 100px 0px;
+}
+
+/**************************************/
+
+
+
+
+.bodyContent {
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+.bodyContent1 {
+    
+}
+
+.bodyContent2 {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.bodyContent3 {
+    flex-direction: column;
+    margin: 0px 20px;
+}
+
+
+/*******************************************/
+
+
+
+.bodyImage {
+    width: 50%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+.bodyImage1 {
+    margin: 10px;
+}
+.bodyImage2 {
+    overflow: hidden;
+}
+/**************************************/
+
+.image {
+    width: 300px;
+}
+.image1 {
+    
+}
+.image2 {
+    
+}
+.image3 {
+    
+}
+
+.tokenomiksImage{
+    width: 500px;
+}
+/********************************************/
+
+.titleBody {
+    color: #fff;
+    font-size: 35px;
+ }
+
+.titleBody1 {
+    
+ }
+
+
+ .titleBody2 {
+    font-size: 25px;
+    color: #001f47;
+    margin-bottom: 20px;
+    text-justify:auto ;
+ }
+
+ .titleBody3 {
+    font-size: 25px;
+    color: #001f47;
+    margin-bottom: 50px;
+    text-align: center;
+ }
+
+ /********************************************/
+ 
+.textBody{
+    color: rgba(255, 255, 255, 0.800);
+    font-weight: 400;
+}
+
+.textBody2{
+    color: rgb(31, 31, 31);
+    font-weight: 400;
+    margin: 0px;
+}
+
+ /********************************************/
+
+
+.buttonContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.buttonContainer2{
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    margin: 20px 0px;
+}
+
+.buttonBox{
+    margin: 0px 10px 0px 0px;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 5px;
+    background: linear-gradient(-45deg, #23d5ab, #263ce391,  #263de3, #23d5abc4);
+    background-size: 400% 400%;
+    display: flex;
+    align-items: center;
+}
+
+
+.buttonBox:hover {
+    transition: 0.5s;
+    background-position: 100% 50%;
+}
+/****************************************/
+
+.buttonBox1{
+    padding: 10px 40px;
+}
+
+.buttonBox2{
+    padding: 15px;
+    margin: 25px 0px;
+}
+
+
+
+/****************************************/
+.h4animate{
+    color: rgba(255, 255, 255, 0.900);
+    transition: 0.5s;
+    margin: 0px;
+}
+
+.h4animate2{
+    color: rgba(8, 8, 8, 0.9);
+    transition: 0.5s;
+    margin: 0px;
+    
+}
+/****************************************/
+
+.icon{
+    color: rgb(255, 255, 255);
+    margin: 0px 5px;
+}
+.symbol{
+    margin: 0px 5px -10px 0px;
+    font-size: 40px;
+}
+
+/****************************************/
+.documentContainer{
+    display: flex;
+    margin: 50px 0px;
+    justify-content: space-evenly;
+
+}
+
+.documentBox{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    /****************************************/
+    .section {
+
+    }
+
+    .section1 {
+        height: 100%;
+    }
+    .section2 {
+        height: 100%;
+    }
+    .section3 {
+        height: 100%;
+    }
+    /****************************************/
+
+    .mainBody{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .mainBody1{
+        flex-direction: column-reverse;
+        margin: 100px 0px;
+    }
+
+    .mainBody2{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: flex-end;
+    }
+
+    .mainBody3{
+        margin: 100px 0px;
+        flex-direction: column;
+        align-items: center;
+        align-content: flex-end;
+    }
+
+    /*********************************************/
+
+    .bodyContent {
+        width: 95%;
+        height: 60%;
+    }
+
+    .bodyContent1 {
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .bodyContent2 {
+        justify-content: flex-start;
+        height: 60%;
+    }
+
+    .bodyContent3 {
+        height: 100%;
+        margin: 50px 0px;
+    }
+    
+    /*********************************************/
+
+    .bodyImage{
+        width: 200px;
+        height: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .bodyImage1 {
+        
+    }
+    .bodyImage2 {
+        width: 90%;
+        height: 90%;
+    }
+
+    /********************************************/
+
+    .buttonContainer{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+
+    .documentContainer{
+        display: flex;
+        margin: 50px 0px;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+    .documentBox{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+  }
+
+  
+
+  @media only screen and (max-width: 500px) {
+    
+    .section {
+    }
+    .section1 {
+        height: 100%;
+    }
+    .section2 {
+        height: 100%;
+    }
+    .section3 {
+        height: 100%;
+    }
+    /********************************************/
+
+    .mainBody{
+        height: 100%;
+        padding: 5px;
+    }
+
+    .mainBody1{
+        margin: 100px 0px;
+    }
+
+    .mainBody2{
+        margin: 150px 0px
+    }
+
+    .mainBody3{
+       
+    }
+    
+    /********************************************/
+
+    .bodyContent {
+        width: 95%;
+        
+    }
+    .bodyContent2 {
+        justify-content: flex-start;
+        height: 55%;
+    }
+
+    .bodyContent3 {
+        
+    }
+    .bodyImage {
+        width: 150px;
+    }
+    .bodyImage2 {
+        width: 90%;
+        height: 90%;
+    }
+
+    /********************************************/
+    .titleBody {
+        
+        font-size: 22px;
+     }
+
+     .titleBody2 {
+        font-size: 22px;
+        color: #000000;
+     }
+
+    /********************************************/
+
+    .textBody{
+        color: rgba(255, 255, 255, 0.850);
+        font-size: 17px;
+    }
+
+    .textBody2{
+        color: rgba(15, 15, 15, 0.85);
+        font-size: 17px;
+    }
+    
+    /********************************************/
+
+
+    .tinylogoToken{
+        width: 10%;
+        margin: 0px 5px 0px 0px;
+    }
+
+    .tokenomiksImage{
+        width: 100%;
+    }
+
+    .h4animate{
+        font-size: 13px;
+        transition: 0.1s;
+    }
+
+    /********************************************/
+
+    
+
+    
+    .h4animate:hover{
+        transform: none;
+    }
+
+    .buttonContainer{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buttonBox{
+        margin: 10px;
+        max-width: 200px;
+    }
+
+
+  }

@@ -1,0 +1,189 @@
+.main {
+    background-image: url("/Svg/pattern-randomized.svg");
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat, repeat;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+}
+.stage1{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rocketBox{
+    position: fixed; 
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    transition: 0.5s;
+}
+.invertrocketBox{
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    transition: 0.3s;
+    transform: rotate(180deg);
+}
+
+.lineBox{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0px;
+}
+
+.line{
+    width: 10px;
+    height: 100%;
+    border-left: 10px dotted  rgb(3, 224, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background: rgb(8,0,255);
+    background: radial-gradient(circle, rgba(8,0,255,1) 0%, rgba(0,245,255,1) 100%);
+    z-index: 100;
+    transition: 0.3s;
+    border-radius: 100%;
+}
+
+.offcircle{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    z-index: 200;
+    background: rgb(8,0,255);
+    background: radial-gradient(circle, rgba(8,0,255,1) 0%, rgba(0,245,255,1) 100%);
+    transition: 1.0s;
+    border-radius: 100%;
+    opacity: 0.0;
+}
+
+.arrow{
+    border-top: 5px solid  rgb(3, 224, 253);
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.offarrow{
+    border-top: 5px solid  rgb(3, 224, 253);
+    position: absolute;
+    transition: 0.5s;
+    width: 0%;
+    z-index: 1;
+}
+
+.infoBox{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 500;
+    transition: 1.0s;
+}
+
+.offinfoBox{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    opacity: 0;
+    transition: 1.0s;
+    justify-content: center;
+    align-items: center;
+    z-index: 500;
+}
+
+.info{
+    max-width: 600px;
+    width: 100%;
+    overflow: hidden;
+    padding: 60px;
+    background-color: rgb(101, 113, 139);
+    border-radius: 10px;
+    
+}
+
+.infoText{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+}
+.infoTitleText{
+    color: rgb(9, 8, 59);
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.detector{
+    position: fixed;
+    background-color: black;
+    border-radius: 100%;
+    z-index: 30000;
+}
+
+@media only screen and (max-width: 800px) {
+    
+    .arrow{
+        border-top: none;
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .info{
+        padding: 40px;
+    }
+
+}
+
+
+@media only screen and (max-width: 400px) {
+    
+    .arrow{
+        border-top: none;
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .info{
+        padding: 20px;
+    }
+
+    .rocketBox{
+        padding: 15px;
+    }
+    .invertrocketBox{
+        padding: 15px;
+    }
+
+    .stage1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

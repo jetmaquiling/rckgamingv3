@@ -1,0 +1,240 @@
+.main {
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url("/Background/token.png");
+    background-size: cover;
+    background-repeat: no-repeat, repeat;
+}
+
+.container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 1050px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+
+.contentBox{
+    flex-direction: column;
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    width: 70%;
+    margin-bottom: 100px;
+    padding: 0px 20px;
+}
+
+.dash{
+    width: 100%;
+    margin: 20px 0px;
+    border-top:  1px solid rgba(0, 232, 248, 0.600);
+}
+
+.titleContainer{
+    max-width: 1050px;
+    padding: 0px 50px;
+    margin-top: 50px;
+    width: 100%;
+    text-align: start;
+}
+
+.titleText{
+    font-weight: 200;
+    font-size: 70px;
+    margin: 0px;
+    color: rgb(0, 217, 255);
+}
+
+
+.title1Text{
+    font-weight: 200;
+    font-size: 50px;
+    margin: 0px;
+    color: rgb(0, 217, 255);
+}
+
+.subText{
+    color: rgb(0, 217, 255);
+    font-weight: 200;
+    font-size: 30px;
+    margin: 0px;
+}
+.headlineText{
+    font-size: 40px;
+    font-weight: 200;
+    margin: 0px;
+}
+
+.subText2{
+    font-weight: 200;
+    font-size: 30px;
+    margin: 0px;
+    color: rgb(234, 6, 255);
+    
+}
+
+.labelText{
+    font-weight: 500;
+    font-size: 15px;
+    margin: 0px;
+    line-height: 0px;
+    color: rgba(255, 255, 255, 0.600);
+}
+
+.tabText{
+    font-weight: 300;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    color: rgba(255, 255, 255, 0.750);
+}
+
+.tab2Text{
+    font-weight: 300;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: rgba(255, 255, 255, 0.750);
+}
+
+.boldText{
+    color: rgba(0, 217, 255, 0.800);
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.normalText{
+    color: rgba(255, 255, 255, 0.600);
+    font-weight: 300;
+}
+
+.normalText:hover{
+    color: rgba(255, 255, 255, 0.750);
+    font-weight: 300;
+}
+
+
+.previewContainer{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.previewBox{
+    max-width: 150px;
+    transition: 0.3s;
+    cursor: pointer;
+    overflow: hidden;
+    border-bottom: 5px solid rgba(255, 255, 255, 0);
+}
+
+.previewBox:hover{
+    border-bottom: 5px solid rgba(255, 255, 255, 0.500);
+    cursor: pointer;
+}
+.buttonText{
+    color: rgb(184, 184, 184);
+}
+
+.buttonText:hover{
+    color: #fff
+}
+
+.imageBox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerLink{
+    display: none;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    
+}
+
+
+.linkBox{
+    color: rgb(49, 49, 49);
+    background-color: rgba(0, 247, 255, 0.747);
+    margin: 5px 5px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.linkBox:hover{
+    background-color: rgba(0, 204, 255, 0.534);
+}
+
+.linkText{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+
+    .title1Text{
+        font-size: 25px;
+    }
+
+    .titleContainer{
+        padding: 0px 5px;
+    }
+    .titleText{
+        font-size: 40px;
+    }
+    .sideBar{
+        display: none;
+    }
+    .contentBox{
+        padding: 0px 10px;
+        width: 100%;
+    }
+    .subText{
+        font-weight: 200;
+        font-size: 25px;
+        margin: 0px;
+    }
+    .headlineText{
+        font-size: 20px;
+        font-weight: 200;
+        margin-bottom: 20px;
+    }
+    .container{
+        max-width: 100%;
+    }
+    .containerLink{
+        display: flex;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+   
+    .titleText{
+        font-size: 25px;
+    }
+    .buttonText{
+        font-size: 12px;
+    }
+    .normalText{
+        font-size: 15px;
+    }
+
+}

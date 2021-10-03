@@ -1,0 +1,231 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	height: 100%;
+	background-size: cover;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+	background-image: url("/Background/token.png");
+	animation-name: bodyanimate;
+    animation-duration: 2s;
+	clip-path: polygon(0 5%, 100% 0, 100% 96%, 0 100%);
+}
+
+
+@keyframes bodyanimate {
+    0%   {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+  }
+
+.countdownwrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 40px 40px 30px;
+	transition: 0.5s;
+}
+
+.backdrop{
+	background: rgba(0, 196, 245, 0.267);
+	width: 50%;
+	border-radius: 10px;
+	margin: 30px 0px;
+}
+
+.countdownitem {
+	font-size: 40px;
+	color:  rgb(255, 255, 255);
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+    line-height: 30px;
+	margin: 10px;
+	position: relative;
+	width: 100px;
+	height: 100px;
+    transition: 0.5s;
+    background-color: #001f47;
+    border-radius: 50%;
+	box-shadow: 4px 4px 12px 2px rgba(0, 0, 0, 0.384);
+}
+
+.countdownitem span {
+	color:  rgb(255, 255, 255);
+	font-size: 12px;
+	text-transform: uppercase;
+    transition: 0.5s;
+	
+}
+
+.countdownsvg {
+	position: absolute;
+	top: 0;
+	left: 0;
+    overflow: hidden;
+	
+}
+
+.smooth{
+    transition: 1.0s;
+}
+.title{
+	color: rgb(255, 255, 255);
+	margin-top: 100px;
+}
+.subtitle{
+	margin: 0px;
+	color: rgb(255, 255, 255);
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.buttonBox{
+    margin: 0px 20px 0px 0px;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 5px;
+    background: linear-gradient(-45deg, #23d5ab, #263ce391,  #263de3, #23d5abc4);
+    background-size: 400% 400%;
+	animation-name: bodyanimate;
+    animation-duration: 2s;
+}
+
+
+.buttonBox:hover {
+    transition: 0.5s;
+    background-position: 100% 50%;
+}
+/****************************************/
+
+.buttonBox2{
+    padding: 15px 50px;
+    margin: 25px 0px;
+}
+
+.h4animate{
+    color: rgba(255, 255, 255, 0.900);
+    transition: 0.5s;
+    margin: 0px;
+}
+
+/****************************************/
+.infoContainer{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	animation-name: bodyanimate;
+    animation-duration: 2s;
+	margin-bottom: 100px;
+}
+.infoRow{
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+}
+
+.info{
+	margin: 20px 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	align-content: center;
+}
+
+
+.label{
+	font-weight: 600;
+	margin: 0px;
+	color: #03f0e4;
+}
+
+.infoData{
+	margin: 0px;
+	color: #fff;
+	font-weight: 500;
+	font-size: 13px;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+	.title{
+		
+	}
+	.smooth{
+		display: none;
+	}
+    .countdownwrapper {
+        width: 100%;
+        
+    }
+	.backdrop{
+		width: 90%;
+	}
+	.infoContainer{
+		
+	}
+}
+
+
+@media only screen and (max-width: 600px) {
+
+	.title{
+		
+	}
+	.subtitle{
+		text-align: center;
+		margin: 5px
+	}
+
+	.countdownitem {
+		font-size: 20px;
+		font-weight: 500;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		line-height: 30px;
+		margin: 5px;
+		position: relative;
+		width: 50px;
+		height: 50px;
+		
+	}
+
+	.countdownitem span {
+		font-size: 12px;
+		position: absolute;
+		top: 50px;
+		text-transform: uppercase;
+		transition: 0.5s;
+		
+	}
+	.backdrop{
+		width: 100%;
+	}
+
+	.infoContainer{
+		flex-direction: column;
+	}
+
+	
+
+
+   
+
+}
