@@ -36,9 +36,9 @@ export default function FAQ() {
             Technically, whatever wallet address you use to transact smart contract, is where you send the RCK Token.
             If you want to transfer RCK Tokens to other wallet application or wallet address, you can just make sure the network is Binance Smart Chain.
           </p>
-            
+          <LinksButton/>
         </div>
-        <LinksButton/>
+        
       </div>
 
       <FootV1/>

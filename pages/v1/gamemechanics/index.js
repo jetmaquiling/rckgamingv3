@@ -4,7 +4,7 @@ import Head from 'next/head'
 import * as style from '@/styles/document.module.css'
 import FootV1 from '@/components/footer/footv1';
 import Link from 'next/link'
-import HeadV2 from '@/components/header/headv3'
+import HeadV2 from '@/components/header/headv2'
 import NavigationV2 from '@/components/navigation/navigationv2'
 import LinksButton from '@/components/caveats/links'
 

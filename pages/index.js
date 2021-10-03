@@ -58,11 +58,11 @@ export default function Home() {
                 <p className={style.textBody2}>A Rock is connotes formidability and stability that is the bedrock of mountains or temple.</p>
                 <p className={style.textBody2}>This is the spirit behind the Rock Token.</p>
                 <p className={style.textBody2}>Rock refer to the overall eco-system with initiatives called “ventures” exclusively using ROCK Token or RCK Token.</p>
-
-                  <div  className={`${style.buttonBox} ${style.buttonBox2}`} >
-                    <h4 className={style.h4animate}>Read Documentation</h4><IoArrowForwardOutline   className={style.icon}/>
-                  </div>
-
+                  <Link href='/v1'>
+                    <div  className={`${style.buttonBox} ${style.buttonBox2}`} >
+                      <h4 className={style.h4animate}>Read Documentation</h4><IoArrowForwardOutline   className={style.icon}/>
+                    </div>
+                  </Link>
               </div>
               
               <div className={style.documentContainer}>
@@ -70,10 +70,13 @@ export default function Home() {
                     <h1 className={style.titleBody2}>How It Works?</h1>
                     <p className={style.textBody2}>Blockchain is a peer-to-peer computer process used to secure and verify RCK transactions—payments from one user to another on a decentralized network.</p>
                     <div  className={style.buttonContainer} >
-                      <div  className={`${style.buttonBox} ${style.buttonBox2}`} >
-                        <h4 className={style.h4animate}>Let's Start</h4><IoArrowForwardOutline   className={style.icon}/>
-                      </div>
+                      <Link href='/v1'>
+                        <div  className={`${style.buttonBox} ${style.buttonBox2}`} >
+                          <h4 className={style.h4animate}>Let's Start</h4><IoArrowForwardOutline   className={style.icon}/>
+                        </div>
+                      </Link>
                     </div>
+
                 </div>
                 
                 <div className={style.documentBox}>
