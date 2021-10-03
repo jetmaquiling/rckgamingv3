@@ -5,10 +5,10 @@ import moment from 'moment'
 
 const Countdown = () => {
     const [time, setTime] = React.useState({
-		days: undefined,
-		hours: undefined,
-		minutes: undefined,
-		seconds: undefined
+		days: 1,
+		hours: 0,
+		minutes: 0,
+		seconds: 0
 	})
     const [radius, setRadius] = React.useState({
 		days: undefined,
@@ -45,34 +45,34 @@ const Countdown = () => {
 
             <div className={style.backdrop}>
                 <div className={style.countdownwrapper}>
-                  {time.days && (
+                 
                     <div className={style.countdownitem}>
                       <SVGCircle radius={radius.days} time={time.days} />
                       {time.days - 1} 
                       <span>days</span>
                     </div>
-                  )}
-                  {time.hours && (
+                
+                 
                     <div className={style.countdownitem}>							
                       <SVGCircle radius={radius.hours} time={time.hours} />
                       {time.hours } 
                       <span>hours</span>
                     </div>
-                  )}
-                  {time.minutes && (
+                 
+                 
                     <div className={style.countdownitem}>
                       <SVGCircle radius={radius.minutes} time={time.minutes} />
                       {time.minutes } 
                       <span>minutes</span>
                     </div>
-                  )}
-                  {time.seconds && (
+               
+                  
                     <div className={style.countdownitem}>
                       <SVGCircle radius={radius.seconds} time={time.seconds} />
                       {time.seconds} 
                       <span>seconds</span>
                     </div>
-                  )}
+                 
                 </div>
                 <div  className={style.buttonContainer} >
                     <div  className={`${style.buttonBox} ${style.buttonBox2}`} >

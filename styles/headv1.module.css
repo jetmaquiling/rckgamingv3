@@ -84,7 +84,7 @@
 .navbar2 {
     width: 60%;
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -192,7 +192,7 @@
     }
   }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
     
     .navbar{
         width: 95%;
@@ -214,7 +214,7 @@
 
   }
 
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 500px) {
     .navbar1 {
         width: 90%;
     }

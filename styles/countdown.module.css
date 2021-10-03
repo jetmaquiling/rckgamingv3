@@ -163,9 +163,9 @@
 
 
 @media only screen and (max-width: 1000px) {
-	.title{
+	/* .title{
 		
-	}
+	} */
 	.smooth{
 		display: none;
 	}
@@ -176,17 +176,17 @@
 	.backdrop{
 		width: 90%;
 	}
-	.infoContainer{
+	/* .infoContainer{
 		
-	}
+	} */
 }
 
 
 @media only screen and (max-width: 600px) {
 
-	.title{
+	/* .title{
 		
-	}
+	} */
 	.subtitle{
 		text-align: center;
 		margin: 5px

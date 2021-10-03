@@ -3,7 +3,7 @@
     position: fixed;
     height: 100%;
     background-image: url("/Background/sun-tornado.svg");
-    background-color: rgb(25, 1, 80);
+    background-color: #001f47;
     background-size: cover;
     background-repeat: no-repeat, repeat;
     overflow: hidden;
@@ -27,9 +27,19 @@
     z-index: 2000;
     transition: 2.0s;
     transform: translate(2000px,0);
+    animation-name: bodyanimate;
+    animation-duration: 1s ease;
     z-index: 3000
 }
 
+@keyframes bodyanimate {
+    0%   {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
 
 
 .navbar {

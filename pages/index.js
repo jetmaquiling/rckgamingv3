@@ -50,9 +50,9 @@ export default function Home() {
       
       
       <div className={`${style.section} ${style.section2}`}>
-        <LazyLoad height={100}>
+      <LazyLoad height={100}>
           <div className={`${style.mainBody} ${style.mainBody2}`}>
-          
+           
               <div className={`${style.bodyContent} ${style.bodyContent2}`}>
                 <h1 className={style.titleBody2}>About RCK (ROCK TOKEN)</h1>
                 <p className={style.textBody2}>A Rock is connotes formidability and stability that is the bedrock of mountains or temple.</p>
@@ -64,7 +64,7 @@ export default function Home() {
                   </div>
 
               </div>
-
+              
               <div className={style.documentContainer}>
                 <div className={style.documentBox}>
                     <h1 className={style.titleBody2}>How It Works?</h1>
@@ -96,7 +96,7 @@ export default function Home() {
                 </div>
               </div>
 
-            
+              
           </div>
           </LazyLoad>
       </div>

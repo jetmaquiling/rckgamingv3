@@ -66,9 +66,9 @@
     animation-duration: 2s;
 }
 
-.mainBody1 {
+/* .mainBody1 {
     
-}
+} */
 
 .mainBody2{
     justify-content: center;
@@ -96,10 +96,10 @@
     
 }
 
-
+/* 
 .bodyContent1 {
     
-}
+} */
 
 .bodyContent2 {
     width: 100%;
@@ -137,15 +137,7 @@
 .image {
     width: 300px;
 }
-.image1 {
-    
-}
-.image2 {
-    
-}
-.image3 {
-    
-}
+
 
 .tokenomiksImage{
     width: 500px;
@@ -157,9 +149,9 @@
     font-size: 35px;
  }
 
-.titleBody1 {
+/* .titleBody1 {
     
- }
+ } */
 
 
  .titleBody2 {
@@ -278,9 +270,9 @@
 
 @media only screen and (max-width: 1000px) {
     /****************************************/
-    .section {
+    /* .section {
 
-    }
+    } */
 
     .section1 {
         height: 100%;
@@ -349,9 +341,9 @@
         align-items: center;
         justify-content: center;
     }
-    .bodyImage1 {
+    /* .bodyImage1 {
         
-    }
+    } */
     .bodyImage2 {
         width: 90%;
         height: 90%;
@@ -388,8 +380,8 @@
 
   @media only screen and (max-width: 500px) {
     
-    .section {
-    }
+    /* .section {
+    } */
     .section1 {
         height: 100%;
     }
@@ -414,9 +406,9 @@
         margin: 150px 0px
     }
 
-    .mainBody3{
+    /* .mainBody3{
        
-    }
+    } */
     
     /********************************************/
 
@@ -429,9 +421,9 @@
         height: 55%;
     }
 
-    .bodyContent3 {
+    /* .bodyContent3 {
         
-    }
+    } */
     .bodyImage {
         width: 150px;
     }
