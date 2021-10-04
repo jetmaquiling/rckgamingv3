@@ -75,9 +75,11 @@ const Countdown = () => {
                  
                 </div>
                 <div  className={style.buttonContainer} >
-                    <div  className={`${style.buttonBox} ${style.buttonBox2}`} >
-                      <h4 className={style.h4animate}>Buy Tokens ></h4>
-                    </div>
+                    <Link href="https://hub.rpsaxess.io/">
+                      <div  className={`${style.buttonBox} ${style.buttonBox2}`} >
+                        <h4 className={style.h4animate}>{"Buy Tokens >"}</h4>
+                      </div>
+                    </Link>
                 </div>
             </div>
             <div className={style.infoContainer} >

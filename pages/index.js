@@ -33,10 +33,11 @@ export default function Home() {
                     <h4 className={style.h4animate}>Whitepaper </h4> <IoArrowForwardOutline  className={style.icon}/>
                   </div>
                 </Link>
+                <Link href='https://hub.rpsaxess.io/'>
                   <div className={`${style.buttonBox} ${style.buttonBox1}`} >
                     <h4 className={style.h4animate}>Buy RCK Now</h4> <IoArrowForwardOutline  className={style.icon}/>
                   </div>
-          
+                </Link>
               </div>
 
             </div>
