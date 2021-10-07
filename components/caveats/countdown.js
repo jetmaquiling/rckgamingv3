@@ -86,12 +86,12 @@ const Countdown = () => {
               <div className={style.infoRow} >
                 <div className={style.info} >
                   <h4 className={style.label} >Starting Time:</h4>
-                  <h4 className={style.infoData}>APR 23, 2018 (MON 10:00 AM)</h4>
+                  <h4 className={style.infoData}>OCT 10, 2021 (SUN 10:00 AM)</h4>
                 </div>
                
                 <div className={style.info} >
                   <h4 className={style.label} >Ending time:</h4>
-                  <h4 className={style.infoData}>JUN 18, 2018 (MON 12:00 PM)</h4>
+                  <h4 className={style.infoData}>OCT 24, 2021 (SUN 12:00 PM)</h4>
                 </div>
 
               </div>
@@ -99,13 +99,13 @@ const Countdown = () => {
               <div className={style.infoRow} >
 
                 <div className={style.info} >
-                  <h4 className={style.label} >Tokens exchange rate:</h4>
-                  <h4 className={style.infoData}>1 ETH = 820 BCC, 1 BTC = 2150 BCC</h4>
+                  <h4 className={style.label} >Total tokens sale</h4>
+                  <h4 className={style.infoData}>100,000,000 RCK (10%)</h4>
                 </div>
 
                 <div className={style.info} >
                   <h4 className={style.label} >Tokens exchange rate:</h4>
-                  <h4 className={style.infoData}>1 ETH = 820 BCC, 1 BTC = 2150 BCC</h4>
+                  <h4 className={style.infoData}>1 RCK = 0.00000901 BNB</h4>
                 </div>
 
               </div>
@@ -113,13 +113,13 @@ const Countdown = () => {
 
               <div className={style.infoRow} >
                 <div className={style.info} >
-                  <h4 className={style.label} >Low - High 24h:</h4>
-                  <h4 className={style.infoData}>October 10, 2021</h4>
+                  <h4 className={style.label} >Tokens exchange rate:</h4>
+                  <h4 className={style.infoData}>1 RCK = $0.004</h4>
                 </div>
 
                 <div className={style.info} >
                   <h4 className={style.label} >Acceptable Currency :</h4>
-                  <h4 className={style.infoData} >October 10, 2021</h4>
+                  <h4 className={style.infoData} >(BNB) Binance</h4>
                 </div>
                 
               </div>

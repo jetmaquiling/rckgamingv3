@@ -1,0 +1,67 @@
+.main{
+    width: 100%;
+}
+
+.buttonBox{
+    cursor: pointer;
+    
+}
+
+
+.buttonText{
+    color: rgb(184, 184, 184);
+    transition: 0.5s;
+    margin: 10px 0px; 
+}
+
+.buttonText:hover{
+    color: rgb(0, 225, 255)
+}
+
+
+.drawerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.drawerButton{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.svgUp{
+    color: rgba(252, 250, 250, 0.616);
+    margin-left: 5px;
+    font-size: 25px;
+    transition: 0.5s;
+    transform: rotate(180deg)
+}
+
+.svgDown{
+    color: rgba(252, 250, 250, 0.616);
+    margin-left: 5px;
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+.drawerOpen{
+    overflow: hidden;
+    transition: 1s;
+    opacity: 1;
+    border-top: 1px solid rgba(252, 250, 250, 0.616);
+    border-bottom: 1px solid rgba(252, 250, 250, 0.616);
+
+}
+
+.drawerClose{
+    border-top: 0px solid rgba(252, 250, 250, 0.616);
+    border-bottom: 0px solid rgba(252, 250, 250, 0.616);
+    transition: 1s;
+    height: 0px !important;
+    opacity: 0;
+    overflow: hidden;
+    
+}

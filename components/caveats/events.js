@@ -6,11 +6,11 @@ const Events = () => {
 
   return (
     <div className={style.main}>
-            <h2>Events</h2>
+            <h2 className={style.mainTitle}>Latest News and Events</h2>
             <div className={style.container}>
                 <div className={style.previewitemCard}>
                     <div className={style.imageBox}>
-                        <img src={'/Thumbnail/RCKPreLaunch.jpg'} className={style.imageBox} />
+                        <img src={'/Thumbnail/RCKPreLaunch.jpg'} className={style.image} />
                     </div>
                     <div  className={style.contentBox}>
                         <h3  className={style.titleText}>Pre-Launch RCK TOKEN</h3>
@@ -25,7 +25,7 @@ const Events = () => {
                 </div>
                 <div className={style.itemCard}>
                     <div className={style.imageBox}>
-                        <img src={'/Thumbnail/thumbnail.jpg'} className={style.imageBox} />
+                        <img src={'/Thumbnail/thumbnail.jpg'} className={style.image} />
                     </div>
                     <div  className={style.contentBox}>
                         <h3  className={style.titleText}>Introduction Of RCK Token In The Market</h3>
@@ -41,7 +41,7 @@ const Events = () => {
                 </div>
                 <div className={style.itemCard}>
                     <div className={style.imageBox}>
-                        <img src={'/Thumbnail/thumbnail.jpg'} className={style.imageBox} alt="Event" />
+                        <img src={'/Thumbnail/thumbnail.jpg'} className={style.image} alt="Event" />
                     </div>
                     <div  className={style.contentBox}>
                         <h3  className={style.titleText}>RCK TOKEN integrated In Pancake Swap</h3>
@@ -55,7 +55,7 @@ const Events = () => {
                     
                 </div>
             </div>
-            <Link href="/v1/roadmap"><h4 className={style.seemoreText}>See More ></h4></Link>
+            <Link href="/v1/roadmap"><h4 className={style.seemoreText}>See More</h4></Link>
             
     </div>
     

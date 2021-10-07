@@ -7,6 +7,7 @@ import Link from 'next/link'
 import HeadV2 from '@/components/header/headv2'
 import NavigationV2 from '@/components/navigation/navigationv2'
 import LinksButton from '@/components/caveats/links'
+import ScrollButton from '@/components/buttons/scroll'
 
 
 export default function Disclaimer() {
@@ -14,6 +15,7 @@ export default function Disclaimer() {
 
   return (
     <div className={style.main}>
+      <ScrollButton/>
       <Head>
         <title>Welcome to RCK | Rock Token
         </title>
@@ -21,15 +23,18 @@ export default function Disclaimer() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <HeadV2 title={"Documentation"} root={"/v1"} />
-      
+
+
+      <div className={style.titleContainer}>
+        <h2 className={style.titleText}  >Get Started</h2>
+      </div>
+
       <div className={style.container}>
         <NavigationV2/>
 
         
 
         <div className={style.contentBox}>
-            
-          <h1 className={style.title1Text} >Get Started</h1>
 
           <p className={style.normalText}>
             WORKING IN PROGRESS.

@@ -9,6 +9,11 @@
     height: 100%;
 }
 
+.mainTitle{
+    color: rgba(255, 255, 255, 0.767);
+    margin: 50px 0px;
+    font-weight: 600;
+}
 .container {
     width: 100%;
     display: flex;
@@ -20,20 +25,42 @@
 
 .previewitemCard{
     overflow: hidden;
+    border-radius: 20px;
     width: 30%;
     max-width: 420px;
+    box-shadow: 5px 5px 10px  #00000096;
+    background-color: rgba(34, 33, 33, 0.959);
 }
 
 .itemCard{
+    border-radius: 20px;
     overflow: hidden;
     width: 30%;
     max-width: 420px;
+    box-shadow: 5px 5px 10px  #00000096;
+    background-color: rgba(34, 33, 33, 0.959);
 }
 
 .imageBox{
     overflow: hidden;
     width: 100%;
-   
+    display: flex;
+    justify-content: center;
+    height: 230px;
+    object-fit: cover;
+}
+
+.image{
+    object-fit: cover;
+    width: 100%;
+    transform: scale(1.0);
+    transition: 0.5s;
+}
+
+.image:hover{
+    transition: 0.5s;
+    width: 100%;
+    transform: scale(1.1);
 }
 
 .titleText{
@@ -45,10 +72,8 @@
 }
 
 .contentBox{
-    padding: 20px 10px;
-    margin-top: -40px;
+    padding: 10px 15px;
     background-color: rgba(34, 33, 33, 0.959);
-    clip-path: polygon(0 0, 100% 20px, 100% 100%, 0 100%);
 }
 
 .countdownBox{
@@ -104,6 +129,7 @@
     cursor: pointer;
     transition: 0.5s;
     padding-bottom: 5px;
+    color: rgba(255, 255, 255, 0.600);
     border-bottom: 3px solid rgba(0, 217, 255, 0);
 }
 
@@ -120,7 +146,9 @@
     .itemCard{
         display: none;
     }
-    
+    .mainTitle{
+        font-size: 20px;
+    }
 
 }
 

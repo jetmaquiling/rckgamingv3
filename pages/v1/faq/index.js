@@ -20,15 +20,18 @@ export default function FAQ() {
         
       </Head>
       <HeadV2  title={"Documentation"} root={"/v1"}/>
+
+      <div className={style.titleContainer}>
+        <h2 className={style.titleText}  >Frequently Asked Questions </h2>
+      </div>
+      
       <div className={style.container}>
         <NavigationV2/>
 
         
 
         <div className={style.contentBox}>
-          <p className={style.title1Text}>
-            Frequently Asked Questions
-          </p>
+          
           <p className={style.boldText}>
             Where to send the smart contract of RCK?
           </p>

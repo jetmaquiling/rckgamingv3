@@ -8,6 +8,7 @@
     background-image: url("/Background/token.png");
     background-size: cover;
     background-repeat: no-repeat, repeat;
+    background-attachment: fixed;
 }
 
 .container{
@@ -30,6 +31,7 @@
     width: 70%;
     margin-bottom: 100px;
     padding: 0px 20px;
+    overflow: hidden;
 }
 
 .dash{
@@ -48,7 +50,7 @@
 
 .titleText{
     font-weight: 200;
-    font-size: 70px;
+    font-size: 50px;
     margin: 0px;
     color: rgb(0, 217, 255);
 }
@@ -56,7 +58,7 @@
 
 .title1Text{
     font-weight: 200;
-    font-size: 50px;
+    font-size: 35px;
     margin: 0px;
     color: rgb(0, 217, 255);
 }
@@ -115,11 +117,14 @@
 .normalText{
     color: rgba(255, 255, 255, 0.600);
     font-weight: 300;
+    inline-size: 100%;
+    overflow-wrap: break-word;
 }
 
 .normalText:hover{
     color: rgba(255, 255, 255, 0.750);
     font-weight: 300;
+    
 }
 
 
@@ -151,7 +156,28 @@
     color: #fff
 }
 
-.imageBox{
+.imageBox1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageBox2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image2{
     width: 100%;
     display: flex;
     justify-content: center;

@@ -13,6 +13,7 @@
 
 
 
+
 .buttonBox{
     cursor: pointer;
 }
@@ -21,6 +22,7 @@
 .buttonText{
     color: rgb(184, 184, 184);
     transition: 0.5s;
+    margin: 10px 0px; 
 }
 
 .buttonText:hover{
