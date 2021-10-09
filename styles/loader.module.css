@@ -8,7 +8,7 @@
     z-index: 6000;
     overflow-y:auto;
     animation-name: backdrop;
-    animation-duration: 4s ;
+    animation-duration: 3s ;
 }
 
 @keyframes backdrop {
@@ -34,7 +34,7 @@
     transform: translate(-50%,-50%);
     background-image: url("/Svg/Ripple.svg");
     animation-name: logoA;
-    animation-duration: 3s ;
+    animation-duration: 2s ;
     z-index: 6000;
     opacity: 0;
 }
@@ -62,7 +62,7 @@
     height: 100%;
     background-color: #001f47;
     animation-name: sideA;
-    animation-duration: 4s ;
+    animation-duration: 3s ;
 }
 
 @keyframes sideA {
@@ -84,7 +84,7 @@
     height: 100%;
     background-color: #001f47;
     animation-name: sideB;
-    animation-duration: 4s ;
+    animation-duration: 3s ;
 }
 
 

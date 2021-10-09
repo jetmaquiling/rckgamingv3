@@ -49,10 +49,10 @@ const HeadV1 = ({pos, open, setOpen, title , root}) => {
                   <h4 className={style.h4animate}>Roadmap</h4>
                   <MdKeyboardArrowDown style={{color: '#fff'}}/>
                   <div className={option1 ? style.optionOpen : style.optionClose} >
-                    <h5 className={style.h5animate}>• Envisioned Ventures</h5>
-                    <h5 className={style.h5animate}>• Venture 1</h5>
-                    <h5 className={style.h5animate}>• Venture 2</h5>
-                    <h5 className={style.h5animate}>• Venture 3 </h5>
+                    <Link href="/v1/progress"><h5 className={style.h5animate}>• Envisioned Ventures</h5></Link>
+                    <Link href="/v1/progress"><h5 className={style.h5animate}>• Venture 1</h5></Link>
+                    <Link href="/v1/progress"><h5 className={style.h5animate}>• Venture 2</h5></Link>
+                    <Link href="/v1/progress"><h5 className={style.h5animate}>• Venture 3 </h5></Link>
                   </div>
                 </div>
                 
@@ -60,8 +60,8 @@ const HeadV1 = ({pos, open, setOpen, title , root}) => {
                   <h4 className={style.h4animate}>WhitePaper</h4>
                   <MdKeyboardArrowDown style={{color: '#fff'}}/>
                   <div className={option2 ? style.optionOpen : style.optionClose} >
-                    <h5 className={style.h5animate}>• Download</h5>
-                    <h5 className={style.h5animate}>• Documentation</h5>
+                    <Link href="/Files/RCK Whitepaper.pdf"><h5 className={style.h5animate}>• Download</h5></Link>
+                    <Link href="/v1"><h5 className={style.h5animate}>• Documentation</h5></Link>
                 </div>
                 </div>
                 
@@ -69,10 +69,10 @@ const HeadV1 = ({pos, open, setOpen, title , root}) => {
                   <h4 className={style.h4animate}>Buy/Trade</h4>
                   <MdKeyboardArrowDown style={{color: '#fff'}} />
                   <div className={option3 ? style.optionOpen : style.optionClose} >
-                    <h5 className={style.h5animate}>• How to Buy?</h5>
-                    <h5 className={style.h5animate}>• How to Trade?</h5>
-                    <h5 className={style.h5animate}>• Download MetaMask</h5>
-                    <h5 className={style.h5animate}>• Download BSC Wallet</h5>
+                    <Link href="/v1"><h5 className={style.h5animate}>• How to Buy?</h5></Link>
+                    <Link href="/v1"><h5 className={style.h5animate}>• How to Trade?</h5></Link>
+                    <Link href="/v1/setupcryptowallet/metamask"><h5 className={style.h5animate}>• Download MetaMask</h5></Link>
+                    <Link href="/v1/setupcryptowallet/binance"><h5 className={style.h5animate}>• Download BSC Wallet</h5></Link>
                     
                 </div>
                 </div>
@@ -81,10 +81,10 @@ const HeadV1 = ({pos, open, setOpen, title , root}) => {
                   <h4 className={style.h4animate}>Play 2 Earn</h4>
                   <MdKeyboardArrowDown style={{color: '#fff'}}/>
                   <div className={option4 ? style.optionOpen : style.optionClose} >
-                    <h5 className={style.h5animate}>• RPSAXESS.IO</h5>
-                    <h5 className={style.h5animate}>• The RPS NFT GAME</h5>
-                    <h5 className={style.h5animate}>• Mechanics</h5>
-                    <h5 className={style.h5animate}>• RPS AXESS Card</h5>
+                    <Link href="https://hub.rpsaxess.io/"><h5 className={style.h5animate}>• RPSAXESS.IO</h5></Link>
+                    <Link href="/v1/progress"><h5 className={style.h5animate}>• The RPS NFT GAME</h5></Link>
+                    <Link href="/v1/progress"><h5 className={style.h5animate}>• Mechanics</h5></Link>
+                    <Link href="/v1/progress"><h5 className={style.h5animate}>• RPS AXESS Card</h5></Link>
                     
                 </div>
                 </div>

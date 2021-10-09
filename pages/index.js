@@ -38,11 +38,11 @@ export default function Home() {
                     <h4 className={style.h4animate}>Whitepaper </h4> <MdArrowForward  className={style.icon}/>
                   </div>
                 </Link>
-                <Link href='https://hub.rpsaxess.io/'>
+                <a href='https://hub.rpsaxess.io/' target="_blank">
                   <div className={`${style.buttonBox} ${style.buttonBox1}`} >
-                    <h4 className={style.h4animate}>Buy RCK Now</h4> <MdArrowForward  className={style.icon}/>
+                    <h4 className={style.h4animate}>Buy RCK Wow</h4> <MdArrowForward  className={style.icon}/>
                   </div>
-                </Link>
+                </a>
               </div>
 
             </div>
@@ -63,7 +63,7 @@ export default function Home() {
                 <h1 className={style.titleBody2}>About RCK (ROCK TOKEN)</h1>
                 <p className={style.textBody2}>A Rock is connotes formidability and stability that is the bedrock of mountains or temple.</p>
                 <p className={style.textBody2}>This is the spirit behind the Rock Token.</p>
-                <p className={style.textBody2}>Rock refer to the overall eco-system with initiatives called “ventures” exclusively using ROCK Token or RCK Token.</p>
+                <p className={style.textBody2}>Rock refer to the overall eco-system with initiatives called “projects” exclusively using ROCK Token or RCK Token.</p>
                   <Link href='/v1'>
                     <div  className={`${style.buttonBox} ${style.buttonBox2}`} >
                       <h4 className={style.h4animate}>Read Documentation</h4><MdArrowForward   className={style.icon}/>

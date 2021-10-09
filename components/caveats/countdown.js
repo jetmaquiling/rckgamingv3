@@ -40,8 +40,8 @@ const Countdown = () => {
   return (
         <div className={style.main}>
             <h2  className={style.title}>RCK Token Sale</h2>
-            <p  className={style.subtitle}>Join the industry leaders to discuss where the markets are heading. </p>
-            <p  className={style.subtitle}>We accept token payments.</p>
+            <p  className={style.subtitle}>Join the RCK Community to discuss where the markets are heading. </p>
+            <p  className={style.subtitle}>We accept BNB Tokens.</p>
 
             <div className={style.backdrop}>
                 <div className={style.countdownwrapper}>
@@ -75,11 +75,11 @@ const Countdown = () => {
                  
                 </div>
                 <div  className={style.buttonContainer} >
-                    <Link href="https://hub.rpsaxess.io/">
+                    <a href="https://hub.rpsaxess.io/" target="_blank">
                       <div  className={`${style.buttonBox} ${style.buttonBox2}`} >
                         <h4 className={style.h4animate}>{"Buy Tokens >"}</h4>
                       </div>
-                    </Link>
+                    </a>
                 </div>
             </div>
             <div className={style.infoContainer} >
