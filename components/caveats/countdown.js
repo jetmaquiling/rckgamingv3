@@ -6,7 +6,7 @@ import moment from 'moment'
 const Countdown = () => {
     const [time, setTime] = React.useState({
 		days: 1,
-		hours: 0,
+		hours: 7,
 		minutes: 0,
 		seconds: 0
 	})
@@ -19,7 +19,7 @@ const Countdown = () => {
 
     React.useEffect(() => {
         setInterval(() => {
-            const then = moment("10 10 2021, 1:00", "MM DD YYYY, h:mm");
+            const then = moment("10 13 2021, 24:00", "MM DD YYYY, h:mm");
             const now = moment();
             if(then < now){
                 setTime({ days: undefined , hours: undefined, minutes: undefined, seconds: undefined });
@@ -55,7 +55,7 @@ const Countdown = () => {
                  
                     <div className={style.countdownitem}>							
                       <SVGCircle radius={radius.hours} time={time.hours} />
-                      {time.hours } 
+                      {time.hours - 7} 
                       <span>hours</span>
                     </div>
                  
@@ -86,12 +86,12 @@ const Countdown = () => {
               <div className={style.infoRow} >
                 <div className={style.info} >
                   <h4 className={style.label} >Starting Time:</h4>
-                  <h4 className={style.infoData}>OCT 10, 2021 (SUN 10:00 AM)</h4>
+                  <h4 className={style.infoData}>OCT 9, 2021 (SAT 12:00 PM)</h4>
                 </div>
                
                 <div className={style.info} >
                   <h4 className={style.label} >Ending time:</h4>
-                  <h4 className={style.infoData}>OCT 24, 2021 (SUN 12:00 PM)</h4>
+                  <h4 className={style.infoData}>OCT 13, 2021 (WED 12:00 PM)</h4>
                 </div>
 
               </div>

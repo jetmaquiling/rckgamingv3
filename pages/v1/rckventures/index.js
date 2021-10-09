@@ -20,7 +20,7 @@ export default function Disclaimer() {
       </Head>
       <HeadV2 title={"Documentation"} root={"/v1"}/>
       <div className={style.titleContainer}>
-        <h2 className={style.titleText} >Our Vision to Venture</h2>
+        <h2 className={style.titleText} >RCK Ventures</h2>
       </div>
       <div className={style.container}>
         <NavigationV2/>

@@ -30,8 +30,8 @@ export default function Home() {
         
         <div className={`${style.mainBody} ${style.mainBody1}`}>
             <div className={`${style.bodyContent} ${style.bodyContent1}`}>
-              <h1 className={style.titleBody}>Providing unchartered opportunities with the adoption and utilization of blockchain technologies.</h1>
-              <p className={style.textBody}>Developing a compelling ventures for RCK Token users that harness blockchain technology that touches gaming, NFT, marketing and DeFi and other social applications.</p>
+              <h1 className={style.titleBody}>Take Your Opportunity In <br/> Blockchain Technology</h1>
+              <p className={style.textBody}>Harness the blockchain technology that touches Gaming, NFT, Marketing and DeFi and other Social Applications.</p>
               <div  className={style.buttonContainer} >
                 <Link href='/Files/RCK Whitepaper.pdf'>
                   <div  className={`${style.buttonBox} ${style.buttonBox1}`} >

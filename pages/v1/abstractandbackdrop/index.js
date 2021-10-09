@@ -29,7 +29,9 @@ export default function AbstractAndBackdrop() {
         <NavigationV2/>
 
         <div className={style.contentBox}>
-
+          <div className={style.imageBox1}>
+            <img src="/Images/Abstract/bitcoin.jpg" className={style.image1}/>
+          </div>
           <p className={style.normalText}>
             Blockchain will has been revolutionizing our world. The enigmatic rollout of Bitcoin in early 2009 captivated the attention of technologist and
             visionaries amidst the Global Financial Crisis. This new and exciting technology has challenged the status quo and gave birth to new and “noble”

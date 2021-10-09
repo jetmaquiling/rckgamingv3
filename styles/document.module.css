@@ -70,13 +70,6 @@
     margin: 0px;
     
 }
-.headlineText{
-    font-size: 40px;
-    font-weight: 200;
-    margin: 0px;
-    font-style: italic;
-    color: rgb(0, 217, 255);
-}
 
 .subText2{
     font-weight: 200;
@@ -85,6 +78,16 @@
     color: rgb(234, 6, 255);
     
 }
+
+.headlineText{
+    font-size: 40px;
+    font-weight: 200;
+    margin: 0px;
+    font-style: italic;
+    color: rgb(0, 217, 255);
+}
+
+
 
 .labelText{
     font-weight: 500;
@@ -115,6 +118,7 @@
     margin-bottom: 0px;
 }
 .normalText{
+    font-size: 18px;
     color: rgba(255, 255, 255, 0.600);
     font-weight: 300;
     inline-size: 100%;
@@ -161,13 +165,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 5px 5px 10px  #00000096;
+    margin: 20px 0px;
 }
 
 .image1{
+
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .imageBox2{
@@ -175,6 +183,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 5px 5px 10px  #00000096;
 }
 
 .image2{
@@ -263,7 +272,7 @@
         font-size: 12px;
     }
     .normalText{
-        font-size: 15px;
+        
     }
 
 }

@@ -27,8 +27,8 @@ const NavigationV2 = () => {
       <div className={style.sideBar}>
 
 
-                <Drawer2 contents={DrawerContent1} title={"What is RCK?"} closeAll={closeAll}/>
-                <Drawer2 contents={DrawerContent2} title={"Setup Crypto Wallet"} closeAll={closeAll}/>
+                {/* <Drawer2 contents={DrawerContent1} title={"What is RCK?"} closeAll={closeAll}/>
+                <Drawer2 contents={DrawerContent2} title={"Setup Crypto Wallet"} closeAll={closeAll}/> */}
 
                 <div className={style.buttonBox}>
                   <Link href="/v1/disclaimer"><h4 className={style.buttonText}>Disclaimer</h4></Link>
@@ -47,7 +47,6 @@ const NavigationV2 = () => {
                 </div>
                 <div className={style.buttonBox}>
                   <Link href="/v1/gamemechanics"><h4 className={style.buttonText}>Game Mechanics</h4></Link>
-                  
                 </div>
                 <div className={style.buttonBox}>
                   <Link href="/v1/setupcryptowallet"><h4 className={style.buttonText}>Setup Crypto Wallet</h4></Link>

@@ -45,20 +45,41 @@ const NavigationV1 = ({pos,open, setOpen}) => {
                 <Link href="/"><h4 className={style.h4animate}>Homepage</h4></Link>
               </div>
 
-              <Drawer1 contents={DrawerContent1} title={"Get Started"} closeAll={closeAll}/>
+              <div  className={style.buttonBox}>
+                <Link href="/v1"><h4 className={style.h4animate}>Get Started</h4></Link>
+              </div>
 
               <div  className={style.buttonBox}>
+                <Link href="/Files/RCK Whitepaper.pdf"><h4 className={style.h4animate}>Whitepaper</h4></Link>
+              </div>
+
+              <div  className={style.buttonBox}>
+                <Link href="/v1/setupcryptowallet/binance"><h4 className={style.h4animate}>Binance Wallet</h4></Link>
+              </div>
+
+              <div  className={style.buttonBox}>
+                <Link href="/v1/setupcryptowallet/metamask"><h4 className={style.h4animate}>Metamask Wallet</h4></Link>
+              </div>
+
+
+              <div  className={style.buttonBox}>
+                <Link href="/v1/disclaimer"><h4 className={style.h4animate}>Disclaimer</h4></Link>
+              </div>
+
+              {/* <div  className={style.buttonBox}>
                 <Link href="/v1/disclaimer"><h4 className={style.h4animate}>Disclaimer</h4></Link>
               </div>
               
               <div  className={style.buttonBox}>
                 <Link href="/v1/abstractandbackdrop"><h4 className={style.h4animate}>Abstract and Backdrop</h4></Link>
               </div>
+
               <div  className={style.buttonBox}>
-                <Link href="/v1/ourvisiontoventure"><h4 className={style.h4animate}>Our Vision</h4></Link>
-              </div>
+                <Link href="/v1/rckventures
+                "><h4 className={style.h4animate}>Our Vision</h4></Link>
+              </div> */}
               
-             
+{/*              
               <div  className={style.buttonBox}>
                 <Link href="/v1/tokenomiks"><h4 className={style.h4animate}>Tokenomiks</h4></Link>
               </div>
@@ -73,7 +94,7 @@ const NavigationV1 = ({pos,open, setOpen}) => {
               </div>
               <div  className={style.buttonBox}>
                 <Link href="/v1/disclaimer"><h4 className={style.h4animate}>Privacy Policy</h4></Link>
-              </div>
+              </div> */}
               
         </div>
         <div className={style.rightsBox}>
