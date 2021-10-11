@@ -32,7 +32,7 @@ export default function MetamaskWallet() {
         <div className={style.contentBox}>
          
           <div className={style.imageBox1}>
-            <img src="/Images/Metamask/Slide1.JPG" className={style.image1}/>
+            <img src="/Images/metamask/Slide1.JPG" className={style.image1}/>
           </div>
           <h2 className={style.headlineText}>
             What is MetaMask?
@@ -45,10 +45,10 @@ export default function MetamaskWallet() {
             Step 1 - Download Metamask
           </p>
           <div className={style.imageBox1}>
-            <img src="/Images/Metamask/Slide2.JPG" className={style.image1}/>
+            <img src="/Images/metamask/Slide2.JPG" className={style.image1}/>
           </div>
           <div className={style.imageBox1}>
-            <img src="/Images/Metamask/Slide3.JPG" className={style.image1}/>
+            <img src="/Images/metamask/Slide3.JPG" className={style.image1}/>
           </div>
           <p className={style.normalText}>
             First, let’s setup MetaMask in the Chrome browser. Open up a new Chrome browser window and navigate to <a href="https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn">https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn </a> and then click on ‘ADD TO CHROME’ to install MetaMask plugin.
@@ -58,7 +58,7 @@ export default function MetamaskWallet() {
             Step 2 - Setup Wallet
           </p>
           <div className={style.imageBox1}>
-            <img src="/Images/Metamask/Slide4.JPG" className={style.image1}/>
+            <img src="/Images/metamask/Slide4.JPG" className={style.image1}/>
           </div>
           <p className={style.normalText}>
             After installing, click on the MetaMask icon on the top right corner of the chrome browser. It will open up MediMask UI, scroll all the way down and click Accept to agree MetaMask’s terms of use.
@@ -68,7 +68,7 @@ export default function MetamaskWallet() {
             Step 3 - Fill Up Password
           </p>
           <div className={style.imageBox1}>
-            <img src="/Images/Metamask/Slide5.JPG" className={style.image1}/>
+            <img src="/Images/metamask/Slide5.JPG" className={style.image1}/>
           </div>
           <p className={style.normalText}>
             Then enter a password, confirm the password, and then click Create for a new wallet account. Please don't forget your password!
@@ -78,7 +78,7 @@ export default function MetamaskWallet() {
             Step 4 - Memorize and Confirm Recovery Key
           </p>
           <div className={style.imageBox1}>
-            <img src="/Images/Metamask/Slide6.JPG" className={style.image1}/>
+            <img src="/Images/metamask/Slide6.JPG" className={style.image1}/>
           </div>
           <p className={style.normalText}>
               VERY IMPORTANT! These 12 words are the only way to restore MetaMask accounts in case you forget your password. The 12 Secret Words should be stored in a safe location, such as in a notebook or USB key kept in a safe. 
@@ -88,7 +88,7 @@ export default function MetamaskWallet() {
             Step 5 - Congratulations!
           </p>
           <div className={style.imageBox1}>
-            <img src="/Images/Metamask/Slide7.JPG" className={style.image1}/>
+            <img src="/Images/metamask/Slide7.JPG" className={style.image1}/>
           </div>
           <p className={style.normalText}>
             That’s it you’ve just created a new Blockchain wallet address using MetaMask! You’re address can be found by clicking on the three little black dots and clicking “Copy Address to clipboard”.

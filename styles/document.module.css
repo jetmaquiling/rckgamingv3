@@ -58,29 +58,38 @@
 
 .title1Text{
     font-weight: 200;
+    font-size: 40px;
+    margin: 0px;
+    color: rgb(0, 217, 255);
+}
+
+
+.title2Text{
+    font-weight: 200;
     font-size: 35px;
     margin: 0px;
+    margin-top: 70px;
     color: rgb(0, 217, 255);
 }
 
 .subText{
     color: rgb(0, 217, 255);
     font-weight: 200;
-    font-size: 30px;
+    font-size: 25px;
     margin: 0px;
     
 }
 
 .subText2{
     font-weight: 200;
-    font-size: 30px;
+    font-size: 25px;
     margin: 0px;
     color: rgb(234, 6, 255);
     
 }
 
 .headlineText{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 200;
     margin: 0px;
     font-style: italic;
@@ -114,8 +123,8 @@
 
 .boldText{
     color: rgba(0, 217, 255, 0.800);
-    font-weight: 500;
-    margin-bottom: 0px;
+    font-weight: 400;
+    font-size: 18px;
 }
 .normalText{
     font-size: 18px;
@@ -131,6 +140,14 @@
     
 }
 
+.listText{
+    color: rgba(255, 255, 255, 0.750);
+    margin: 0px;
+    font-size: 18px;
+    inline-size: 100%;
+    font-weight: 300;
+    overflow-wrap: break-word;
+}
 
 .previewContainer{
     width: 100%;
@@ -226,8 +243,19 @@
 
 
 @media only screen and (max-width: 800px) {
+    .titleContainer{
+        border-top: 1px solid rgba(0, 247, 255, 0.747);
+        border-bottom: 1px solid rgba(0, 247, 255, 0.747);
+        margin-top: 20px;
 
+    }
+    .container{
+        margin-top: 20px;
+    }
     .title1Text{
+        font-size: 30px;
+    }
+    .title2Text{
         font-size: 25px;
     }
 
@@ -246,13 +274,17 @@
     }
     .subText{
         font-weight: 200;
-        font-size: 25px;
+        font-size: 20px;
+        margin: 0px;
+    }
+    .subText{
+        font-weight: 200;
+        font-size: 20px;
         margin: 0px;
     }
     .headlineText{
         font-size: 20px;
         font-weight: 200;
-        margin-bottom: 20px;
     }
     .container{
         max-width: 100%;

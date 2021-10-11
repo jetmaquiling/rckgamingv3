@@ -40,7 +40,7 @@ export default function Home() {
                 </Link>
                 <a href='https://hub.rpsaxess.io/' target="_blank">
                   <div className={`${style.buttonBox} ${style.buttonBox1}`} >
-                    <h4 className={style.h4animate}>Buy RCK Wow</h4> <MdArrowForward  className={style.icon}/>
+                    <h4 className={style.h4animate}>Buy RCK Now</h4> <MdArrowForward  className={style.icon}/>
                   </div>
                 </a>
               </div>

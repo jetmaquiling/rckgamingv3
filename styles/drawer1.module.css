@@ -1,5 +1,7 @@
 .main{
-
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 
@@ -59,6 +61,7 @@
 .drawerLink{
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
 
 

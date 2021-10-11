@@ -35,8 +35,14 @@ export default function Disclaimer() {
         
 
         <div className={style.contentBox}>
+          <h2 className={style.titleText}>
+            title1Text
+          </h2>
           <h2 className={style.title1Text}>
             title1Text
+          </h2>
+          <h2 className={style.title2Text}>
+            title2Text
           </h2>
           <h2 className={style.titleText}>
             titleText
@@ -61,8 +67,14 @@ export default function Disclaimer() {
           <p className={style.normalText}>
             normalText
           </p>
+          <p className={style.boldText}>
+            boldtext
+          </p>
           <p className={style.buttonText}>
             buttonText
+          </p>
+          <p className={style.listText}>
+            listText
           </p>
          
           <div className={style.imageBox1}>

@@ -4,17 +4,33 @@ import Link from 'next/link'
 import {MdKeyboardArrowDown} from "react-icons/md";
 import Drawer2 from "../drawer/drawer2";
 
-
 const DrawerContent1 = [
-  {url: '/v1/rpsnftgame' , label: 'RPS NFT Game'},
-  {url: '/v1' , label: 'Get Started'},
-  {url: '/v1/roadmap' , label: 'Road Map'},
+  {url: '/v1/' , label: 'What is the Rock?'},
+  {url: '/v1/disclaimer' , label: 'Disclaimer'},
+  {url: '/v1/faq' , label: 'FAQ'},
 ]
 
+
+
 const DrawerContent2 = [
-  {url: '/v1/rpsnftgame' , label: 'What is Crypto Wallet?'},
-  {url: '/v1/setupcryptowallet/binance' , label: 'Binance Chain Wallet'},
-  {url: '/v1/setupcryptowallet/metamask' , label: 'MetaMask Wallet'},
+  {url: '/v1/abstractandbackdrop' , label: 'Blockchain'},
+  {url: '/v1/abstractandbackdrop' , label: 'Cyptocurrency'},
+  {url: '/v1/abstractandbackdrop' , label: 'NFT'},
+]
+
+
+
+const DrawerContent3 = [
+  {url: '/v1/rckventures' , label: 'Overview'},
+  {url: '/v1/rckventures/rpsnftgame' , label: 'RPS NFT Game'},
+  {url: '/v1/rckventures/gamemechanics' , label: 'RPS Game Mechanics'},
+]
+
+
+const DrawerContent4 = [
+  {url: '/v1/setupcryptowallet' , label: 'What is Crypto Wallet?'},
+  {url: '/v1/setupcryptowallet/metamask' , label: 'Set up Metamask?'},
+  {url: '/v1/setupcryptowallet/binance' , label: 'Set up Binance?'},
 ]
 
 
@@ -27,46 +43,35 @@ const NavigationV2 = () => {
       <div className={style.sideBar}>
 
 
-                {/* <Drawer2 contents={DrawerContent1} title={"What is RCK?"} closeAll={closeAll}/>
-                <Drawer2 contents={DrawerContent2} title={"Setup Crypto Wallet"} closeAll={closeAll}/> */}
+                <div className={style.buttonBox}>
+                  <Link href="/"><h4 className={style.buttonText}>Back to Homepage</h4></Link>
+                </div>
+                <div className={style.buttonBox}>
+                  <Link href="/Files/RCK Whitepaper.pdf"><h4 className={style.buttonText}>Download Whitepaper</h4></Link>
+                </div>
+                <Drawer2 title="Get Started" contents={DrawerContent1} closeAll={closeAll} />
+
+                <Drawer2 title="Abstract & Backdrop" contents={DrawerContent2} closeAll={closeAll} />
+
+                <Drawer2 title="RCK Ventures" contents={DrawerContent3} closeAll={closeAll} />
 
                 <div className={style.buttonBox}>
-                  <Link href="/v1/disclaimer"><h4 className={style.buttonText}>Disclaimer</h4></Link>
+                  <Link href="/v1/tokenomiks"><h4 className={style.buttonText}>Tokenomiks</h4></Link>
                 </div>
+
                 <div className={style.buttonBox}>
-                  <Link href="/v1/progress"><h4 className={style.buttonText}>Abstract and Backdrop</h4></Link>
-                
+                  <Link href="/v1/initialfundsanduse"><h4 className={style.buttonText}>Initial Funds</h4></Link>
                 </div>
+
                 <div className={style.buttonBox}>
-                  <Link href="/v1/progress"><h4 className={style.buttonText}>Vision To Venture</h4></Link>
-                  
+                  <Link href="/v1/roadmap"><h4 className={style.buttonText}>Roadmap</h4></Link>
                 </div>
-                <div className={style.buttonBox}>
-                  <Link href="/v1/progress"><h4 className={style.buttonText}>RPS NFT Game</h4></Link>
-                  
-                </div>
-                <div className={style.buttonBox}>
-                  <Link href="/v1/progress"><h4 className={style.buttonText}>Game Mechanics</h4></Link>
-                </div>
-                <div className={style.buttonBox}>
-                  <Link href="/v1/progress"><h4 className={style.buttonText}>Setup Crypto Wallet</h4></Link>
-                </div>
-                <div className={style.buttonBox}>
-                  <Link href="/v1/progress"><h4 className={style.buttonText}>Tokenomiks</h4></Link>   
-                </div>
-                
-                <div className={style.buttonBox}>
-                  <Link href="/v1/progress"><h4 className={style.buttonText}>Target Funds and Uses</h4></Link>
-                </div>
-                <div className={style.buttonBox}>
-                  <Link href="/v1/progress"><h4 className={style.buttonText}>Forward Looking</h4></Link>
-                </div>
-                <div className={style.buttonBox}>
-                  <Link href="/v1/progress"><h4 className={style.buttonText}>FAQ</h4></Link>
-                </div>
+
                 <div className={style.buttonBox}>
                   <Link href="/v1/progress"><h4 className={style.buttonText}>Privacy Policy</h4></Link>
                 </div>
+
+                <Drawer2 title="Setup CryptoWallet" contents={DrawerContent4} closeAll={closeAll} />
           </div>
   )
 }

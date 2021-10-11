@@ -28,65 +28,62 @@ export default function Disclaimer() {
         
 
         <div className={style.contentBox}>
-          <p className={style.headlineText}>
+          <h2 className={style.headlineText}>
             Venture with us!
+          </h2>
+          <p className={style.normalText}>
+            This is RCK's strategic plan defining the goal or desired outcome and major steps or milestones needed to reach it. 
           </p>
-          <p className={style.subText}>
-            STAGE 1
-          </p>
-          <p className={style.labelText}>
-            Q2 - 2021
-          </p>
-          <p className={style.tabText}>
-            • Brainstorming concept and identity development <br/>
-            • Research and incubation of Venture 1 <br/>
-            • Testing of V1 RPS NFT Game <br/>
-            • White Paper development <br/>
-            • Website development <br/>
-            • Team formation <br/>
-            • Idea dissemination to interested
-            people for future Roadshows and 
-            Initial Public Distribution
-          </p>
-
+          <h3 className={style.title2Text}>
+            STAGE 1 - Q2 2021
+          </h3>
+          <div className={style.imageBox1}>
+            <img src="/Images/roadmap/Slide1.JPG" className={style.image1}/>
+          </div>
+         
+          <p className={style.listText}>• Brainstorming concept and identity development </p>
+          <p className={style.listText}>  • Research and incubation of Venture 1 </p>
+          <p className={style.listText}>  • Testing of V1 RPS NFT Game </p>
+          <p className={style.listText}> • White Paper development </p>
+          <p className={style.listText}> • Website development </p>
+          <p className={style.listText}> • Team formation </p>
+          <p className={style.listText}> • Idea dissemination to interested people for future Roadshows and Initial Public Distribution
+         
           <div className={style.dash}/>
 
-          <p className={style.subText}>
-            STAGE 2
-          </p>
-          <p className={style.labelText}>
-            Q4 - 2021
-          </p>
-          <p className={style.tabText}>
-            • Whitepaper Release<br/>
-            • Website Launch –<br/>
-            • Launch for Venture 1: RPS NFT Game <br/>
-            • Roadshows For Initial Private Distribution
-            (IPD) of RCK Tokens<br/>
-            • Initial Distribution of Axesscards NFT<br/>
-            • Public Launching of RCK Tokens<br/>
-            • Early Adopter Allocation - tentative<br/>
-            • Listing on Decentralised Exchange (DEX)<br/>
-          </p>
+          <h3 className={style.title2Text}>
+            STAGE 2 - Q4 2021
+          </h3>
+          <div className={style.imageBox1}>
+            <img src="/Images/roadmap/Slide2.JPG" className={style.image1}/>
+          </div>
+            <p className={style.listText}>• Whitepaper Release</p>
+            <p className={style.listText}> • Website Launch –</p>
+            <p className={style.listText}> • Launch for Venture 1: RPS NFT Game </p>
+            <p className={style.listText}>•  Roadshows For Initial Private Distribution (IPD) of RCK Tokens</p>
+            <p className={style.listText}>• Initial Distribution of Axesscards NFT</p>
+            <p className={style.listText}> • Public Launching of RCK Tokens</p>
+            <p className={style.listText}>• Early Adopter Allocation - tentative</p>
+        
 
           <div className={style.dash}/>
 
 
-          <p className={style.subText}>
-            STAGE 3
-          </p>
-          <p className={style.labelText}>
-            Q2 - 2022
-          </p>
-          <p className={style.tabText}>
-            • 1 st Enhancement V1 RPS NFT Game<br/>
-            <p className={style.tab2Text}>
-            - Launch RPS Marketplace<br/>
-            - Beta Testing RPS to Android<br/>
-            </p>
-            • Series A Allocation – RCK Token<br/>
-            • Series B Allocation RCK Token<br/>
-            • Additional Listing on DEX - tentative<br/>
+          <h3 className={style.title2Text}>
+            STAGE 3 - Q2 2022
+          </h3>
+         
+          <div className={style.imageBox1}>
+            <img src="/Images/roadmap/Slide3.JPG" className={style.image1}/>
+          </div>
+              <p className={style.listText}> RCK Listing on Decentralized Exchange (DEX) </p>
+              <p className={style.listText}>• 1 st Enhancement V1 RPS NFT Game</p>
+              <p className={style.tab2Text}>
+              - Launch RPS Marketplace<br/>
+              - Beta Testing RPS to Android<br/>
+              </p>  
+              <p className={style.listText}> Incubation of Venture 2 (V2)</p>
+      
            </p>
 
 
@@ -94,56 +91,57 @@ export default function Disclaimer() {
            <p className={style.subText2}>
           </p>
 
-           <p className={style.subText2}>
-            STAGE 4
-          </p>
+           <h3 className={style.title2Text}>
+            STAGE 4 - Q1 2023
+          </h3>
           <p className={style.labelText}>
-            Q1 - 2023
+           
           </p>
-          <p className={style.tabText}>
-            • 2nd Enhancement V1 RPS NFT Game<br/>
+          <div className={style.imageBox1}>
+            <img src="/Images/roadmap/Slide4.JPG" className={style.image1}/>
+          </div>
+          
+          <p className={style.listText}>• V1 RPS NFT Game - 2nd Enhancement</p>
               <p className={style.tab2Text}>
               - Beta Testing RPS to IOS<br/>
               - Launch of RPS to Android<br/>
               </p>
-            • Marketing and Partnerships for RPS<br/>
-            • Incubation of Venture 2 (v2)<br/>
-           </p>
+              <p className={style.listText}> • V2 Beta Testing</p>
+              <p className={style.listText}>• Marketing and Partnerships for Ventures</p>
 
-          
            <div className={style.dash}/>
 
 
-          <p className={style.subText2}>
-            STAGE 4
-          </p>
-          <p className={style.labelText}>
-            Q4 - 2022
-          </p>
-          <p className={style.tabText}>
-            • 3rd Enhancement V1 RPS NFT Game<br/>
+          <h3 className={style.title2Text}>
+            STAGE 5 - Q4  2022
+          </h3>
+          <div className={style.imageBox1}>
+            <img src="/Images/roadmap/Slide5.JPG" className={style.image1}/>
+          </div>
+         
+          <p className={style.listText}>• V1 RPS NFT Game - 3rd Enhancement</p>
             <p className={style.tab2Text}>
             - Development to native platform<br/>
             </p>
-            • Development and launching of V2<br/>
-            • Incubation of Venture 3 (V3)<br/>
-            • Additional Listing<br/>
+            <p className={style.listText}>• V2 Launching</p>
+            <p className={style.listText}>• Incubation of Venture 3 (V3) – Marketplace</p>
+            <p className={style.listText}>• Additional Listing</p>
 
-          </p>
+         
 
         <div className={style.dash}/>
 
-          <p className={style.subText2}>
-            STAGE 4
-          </p>
-          <p className={style.labelText}>
-            Q3 - 2022
-          </p>
-          <p className={style.tabText}>
-            • Soft Launching of V3<br/>
-            • Expansion of ventures with additional applications<br/>
-            • Additional Listing on other DEX (Coinmarketcap and Coingecko)<br/>
-          </p>
+          <h3 className={style.title2Text}>
+            STAGE 6 - Q3 2022
+          </h3>
+          <div className={style.imageBox1}>
+            <img src="/Images/roadmap/Slide6.JPG" className={style.image1}/>
+          </div>
+         
+          <p className={style.listText}>• V3 Beta Testing and Launching </p>
+          <p className={style.listText}> • Expansion of ventures with additional applications</p>
+          <p className={style.listText}> • Additional Listing on other DEX (Coinmarketcap and Coingecko) </p>
+         
 
 
 

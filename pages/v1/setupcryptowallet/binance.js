@@ -32,7 +32,7 @@ export default function BinanceWallet() {
         <div className={style.contentBox}>
           
           <div className={style.imageBox1}>
-            <img src="/Images/Binance/Slide1.JPG" className={style.image1}/>
+            <img src="/Images/binance/Slide1.JPG" className={style.image1}/>
           </div>
           <h2 className={style.headlineText}>
             What is Binance Wallet?
@@ -45,10 +45,10 @@ export default function BinanceWallet() {
             Step 1 - Download Binance Wallet
           </p>
           <div className={style.imageBox1}>
-            <img src="/Images/Binance/Slide2.JPG" className={style.image1}/>
+            <img src="/Images/binance/Slide2.JPG" className={style.image1}/>
           </div>
           <div className={style.imageBox1}>
-            <img src="/Images/Binance/Slide3.JPG" className={style.image1}/>
+            <img src="/Images/binance/Slide3.JPG" className={style.image1}/>
           </div>
           <p className={style.normalText}>
             First, let’s setup Binance Wallet in the Chrome browser. Open up a new Chrome browser window and navigate to <a href="https://chrome.google.com/webstore/detail/binance-wallet/fhbohimaelbohpjbbldcngcnapndodjp">https://chrome.google.com/webstore/detail/binance-wallet/fhbohimaelbohpjbbldcngcnapndodjp</a> and then click on ‘ADD TO CHROME’ to install Binance Wallet extension.
@@ -58,13 +58,13 @@ export default function BinanceWallet() {
             Step 2 - Setup Wallet
           </p>
           <div className={style.imageBox1}>
-            <img src="/Images/Binance/Slide4.JPG" className={style.image1}/>
+            <img src="/Images/binance/Slide4.JPG" className={style.image1}/>
           </div>
           <div className={style.imageBox1}>
-            <img src="/Images/Binance/Slide5.JPG" className={style.image1}/>
+            <img src="/Images/binance/Slide5.JPG" className={style.image1}/>
           </div>
           <div className={style.imageBox1}>
-            <img src="/Images/Binance/Slide6.JPG" className={style.image1}/>
+            <img src="/Images/binance/Slide6.JPG" className={style.image1}/>
           </div>
           <p className={style.normalText}>
             After installing, click on the Binance Wallet icon on the top right corner of the chrome browser. It will open up Binance Wallet UI, click Create Wallet, Then click "Generate seed phrase".
@@ -74,7 +74,7 @@ export default function BinanceWallet() {
             Step 3 - Fill Up Password
           </p>
           <div className={style.imageBox1}>
-            <img src="/Images/Binance/Slide7.JPG" className={style.image1}/>
+            <img src="/Images/binance/Slide7.JPG" className={style.image1}/>
           </div>
           <p className={style.normalText}>
             Then enter a password, confirm the password, and then click continue to proceed. Advisory! Please don't forget your password!
@@ -84,7 +84,7 @@ export default function BinanceWallet() {
             Step 4 - Memorize and Confirm Recovery Key
           </p>
           <div className={style.imageBox1}>
-            <img src="/Images/Binance/Slide8.JPG" className={style.image1}/>
+            <img src="/Images/binance/Slide8.JPG" className={style.image1}/>
           </div>
           <p className={style.normalText}>
               VERY IMPORTANT! These 12 words are the only way to restore Binance Wallet accounts in case you forget your password. The 12 Secret Words should be stored in a safe location, such as in a notebook or USB key kept in a safe. 
@@ -94,7 +94,7 @@ export default function BinanceWallet() {
             Step 5 - Congratulations!
           </p>
           <div className={style.imageBox1}>
-            <img src="/Images/Binance/Slide9.JPG" className={style.image1}/>
+            <img src="/Images/binance/Slide9.JPG" className={style.image1}/>
           </div>
           <p className={style.normalText}>
             That’s it you’ve just created a new Blockchain wallet address using Binance Wallet! You’re address can be found by clicking on the account number,and clicking “Copy Address to clipboard”.

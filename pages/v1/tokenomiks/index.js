@@ -25,7 +25,7 @@ export default function Tokenomiks() {
 
       
       <div className={style.titleContainer}>
-        <h2 className={style.titleText}  >Tokenomics</h2>
+        <h2 className={style.titleText}  >Tokenomiks</h2>
       </div>
       
       <div className={style.container}>
@@ -34,6 +34,9 @@ export default function Tokenomiks() {
         <div className={style.contentBox}>
           
     
+          <div className={style.imageBox1}>
+            <img src="/Images/tokenomiks/Slide1.JPG" className={style.image1}/>
+          </div>
 
           <p className={style.normalText}>
             Token - RCK Token <br/>
@@ -42,58 +45,72 @@ export default function Tokenomiks() {
             Total Token Supply - 1,000,000,000 <br/>
           </p>
 
-         
-          <p className={style.boldText} style={{color:"#0E86D4"}}>
-            Initial Private Distribution – 100,000,000 RKC (10%)
-          </p>
-          <p className={style.normalText}>
-            Allocated and distributed to the community’s
-            cofounders – who shares the vision for the
-            ventures. Target Initial Funds to be
-            raised based on the soft cap
-            of 10% of Total Token Supply
-          </p>
-
-          <p className={style.boldText} style={{color:"#D0B49F"}}>
-             Founding Team Vesting – 150,000,000 RKC (15%)
-          </p>
-          <p className={style.normalText}>
-            Tokens vested (locked) by founders and
-            proponent teams
-          </p>
-
-          <p className={style.boldText} style={{color:"#AB6B51"}}>
-            Burn Token – 150,000,000 RKC (15%)
-          </p>
-          <p className={style.normalText}>
-            To be deployed against unwarranted
-            downward price movement
-          </p>
-
-          <p className={style.boldText} style={{color:"#39918C"}}>
-             Early Adopters Distribution – 100,000,000 RKC (10%)
-          </p>
-          <p className={style.normalText}>
-            Future token distribution to other adopters split
-            according to various programs / tranches (Early
-            Adopters, Series A, Series B)
-          </p>
-
-          <p className={style.boldText} style={{color:"#FF0833"}} id="listing">
-             Listing Tokens – 200,000,000 RKC (20%)
+          <div className={style.dash}/>
+          <p className={style.subText} >
+            Listing Tokens – 150,000,000 RKC (15%)
           </p>
           <p className={style.normalText}>
             Tokens to be listed in the DEX (decentralized
-            exchange) such as Pancakeswap and others.
-            Listing will be scheduled in tranches – initial c.10%
+            exchange) such as Pancakeswap and others. Listing
+            will be scheduled in tranches – initial c.10%
           </p>
 
-          <p className={style.boldText} style={{color:"#CB8AFF"}}>
-            Treasury Reserve – 300,000,000 RCK (30%) 
+          <div className={style.dash}/>
+          <p className={style.subText} >
+            Initial Private Distribution (IPD) – 200,000,000 RKC (20%)
+          </p>
+          <p className={style.normalText}>
+            Allocated and distributed exclusively to the 1)
+            Community Co-founders and 2) Early Adopters
+            based on series of distribution schedule 
+          </p>
+
+          <div className={style.dash}/>
+          <p className={style.subText} >
+            Rewards – 350,000,000 RKC (35%)
+          </p>
+          <p className={style.normalText}>
+            Rewards distributed based on RCK Venture games such as RPS NFT Game
+          </p>
+
+
+          <div className={style.dash}/>
+          <p className={style.subText} >
+            Development Enhancement – 100,000,000 RKC (10%)
+          </p>
+          <p className={style.normalText}>
+            Tokens allocated as rewards for developments of
+            network in the ecosystem
+          </p>
+
+          <div className={style.dash}/>
+          <p className={style.subText}  >
+            Burn Token – 100,000,000 RKC (10%)
+          </p>
+          <p className={style.normalText}>
+            To be deployed against unwarranted downward price movement
+          </p>
+
+          <div className={style.dash}/>
+          <p className={style.subText} >
+            Marketing and Partnerships – 50,000,000 RCK (5%) 
           </p>
             <p className={style.normalText}>
             For future token drawdowns and reserve
           </p>
+
+          <div className={style.dash}/>
+          <p className={style.subText} >
+            Founding Team – 50,000,000 RCK (5%) 
+          </p>
+            <p className={style.normalText}>
+            Tokens vested (locked) by founders and proponent teams
+          </p>
+
+          <div className={style.imageBox1}>
+            <img src="/Images/tokenomiks/Slide2.JPG" className={style.image1}/>
+          </div>
+
 
           
 
