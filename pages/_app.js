@@ -7,12 +7,6 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <meta charSet="utf-8" />
-        <title>RCK•ROCK Token - Providing unchartered opportunities with the adoption and utilization of blockchain technologies.</title>
-        <meta name="description" content="Providing unchartered opportunities with the adoption and utilization of blockchain technologies."/>
-        <meta property="og:type"               content="website" />
-        <meta property="og:title"              content="Providing unchartered opportunities with the adoption and utilization of blockchain technologies." />
-        <meta property="og:description"        content="Developing a compelling ventures for RCK Token users that harness blockchain technology that touches gaming, NFT, marketing and DeFi and other social applications." />
-        <meta property="og:image"              content='./Thumbnail/thumbnail.jpg' />
         <link rel="apple-touch-icon" sizes="180x180" href="/Favicon/apple-touch-icon.png"/>
         <link rel="icon" type="image/png" sizes="32x32" href="/Favicon/favicon-32x32.png"/>
         <link rel="icon" type="image/png" sizes="16x16" href="/Favicon/favicon-16x16.png"/>

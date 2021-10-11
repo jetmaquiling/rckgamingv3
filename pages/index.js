@@ -20,6 +20,14 @@ export default function Home() {
 
   return (
     <div className={style.main}>
+      <Head>
+        <title>RCK•ROCK Token - Providing unchartered opportunities with the adoption and utilization of blockchain technologies.</title>
+        <meta name="description" content="Providing unchartered opportunities with the adoption and utilization of blockchain technologies."/>
+        <meta property="og:type"               content="website" />
+        <meta property="og:title"              content="Providing unchartered opportunities with the adoption and utilization of blockchain technologies." />
+        <meta property="og:description"        content="Developing a compelling ventures for RCK Token users that harness blockchain technology that touches gaming, NFT, marketing and DeFi and other social applications." />
+        <meta property="og:image"              content='./Thumbnail/thumbnail.jpg' />
+      </Head>
       <ScrollButton/>
       <Head>
         <title>RCK Rock Ventures</title>
