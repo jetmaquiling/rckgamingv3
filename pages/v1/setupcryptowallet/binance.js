@@ -41,6 +41,10 @@ export default function BinanceWallet() {
             Binance Wallet allows users to store and wallet accounts, make transactions, send and receive cryptocurrencies, NFT's and tokens, and securely connect to blockchain applications. It is compatible with web browser or the mobile app's built-in browser. <a href="https://www.binance.org/en">Click this Link to learn more binance.org</a>
           </p>
 
+          <div className={style.videoContainer}>
+          <iframe className={style.video} src="https://www.youtube.com/embed/skjyudsjSHY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          
           <p className={style.title1Text}>
             Step 1 - Download Binance Wallet
           </p>

@@ -33,7 +33,7 @@ export default function Disclaimer() {
            Target Use of Funds
           </h2>
           <div className={style.imageBox1}>
-            <img src="/Images/initialfunds/Slide2.JPG" className={style.image1}/>
+            <img src="/Images/initialfunds/Slide1.JPG" className={style.image1}/>
           </div>
          
             <h3 className={style.subText} >

@@ -19,9 +19,7 @@ export default function AbstractAndBackdrop() {
       <Head>
         <title>RCK - Abstract And Backdrop</title>
         <meta name="description" content="Blockchain has been revolutionizing our world. The enigmatic rollout of Bitcoin in early 2009 captivated the attention of
-            technologist and visionaries amidst the Global Financial Crisis. This new and exciting technology has challenged the status quo
-            and gave birth to new and “noble” ways of how we think about money (finance), knowledge (information), equality (access) and
-            community (accountability & connectivity)."/>
+            technologist and visionaries amidst the Global Financial Crisis."/>
         <meta property="og:type"               content="website" />
         <meta property="og:title"              content="RCK•ROCK Token - Abstract And Backdrop" />
         <meta property="og:description"        content="Blockchain has been revolutionizing our world." />
@@ -40,15 +38,28 @@ export default function AbstractAndBackdrop() {
           <p className={style.headlineText}>
             "Enter The World of Blockchain"
           </p>
-          <div className={style.imageBox1}>
-            <img src="/Images/abstract/Slide1.JPG" className={style.image1}/>
+          <div className={style.videoContainer}>
+            <iframe className={style.video} src="https://www.youtube.com/embed/yubzJw0uiE4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
+          
           <p className={style.normalText}>
             Blockchain has been revolutionizing our world. The enigmatic rollout of Bitcoin in early 2009 captivated the attention of
             technologist and visionaries amidst the Global Financial Crisis. This new and exciting technology has challenged the status quo
             and gave birth to new and “noble” ways of how we think about money (finance), knowledge (information), equality (access) and
             community (accountability & connectivity).
           </p>
+
+          <div className={style.markerBox}>
+            <div id="cryptocurrency" className={style.marker}/>
+          </div>
+          <p className={style.title2Text}>
+            The Cryptocurrency Revolution
+          </p>
+
+          <div className={style.videoContainer}>
+          <iframe className={style.video} src="https://www.youtube.com/embed/6Gu2QMTAkEU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+
           <p className={style.normalText}>
             The blockchain’s immediate popular cryptocurrency - Bitcoin, opened up the massive downpour of interest and waves of cryptocurrencies.
             In 2013, the total market value of the entire cryptocurrency was USD 1.64 billion. Even then, the greater majority was not really paying
@@ -58,11 +69,15 @@ export default function AbstractAndBackdrop() {
             USD2 trillion (Source: Block Social), the sheer number of cryptos is a convincing sign that adoption and demand from the wider population
             has and continue to accelerate.
           </p>
-
           <div className={style.imageBox1}>
             <img src="/Images/abstract/Slide2.JPG" className={style.image1}/>
           </div>
 
+         
+
+          <div className={style.markerBox}>
+            <div id="nft" className={style.marker}/>
+          </div>
           <p className={style.title2Text}>
             NFT Adoption
           </p>
@@ -86,6 +101,10 @@ export default function AbstractAndBackdrop() {
             October 4, 2021
           </p>
 
+          <div className={style.videoContainer}>
+          <iframe className={style.video} src="https://www.youtube.com/embed/FkUn86bH34M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+
           <p className={style.title2Text}>
             Informal Adoption.
           </p>
@@ -102,7 +121,8 @@ export default function AbstractAndBackdrop() {
           </div>
 
           <p className={style.normalText}>
-            According to Triple A, these are the number of crypto owners around the world.
+            According to Statista Global Consumer Survey (2021), out of 74 countries.
+           
           </p>
 
           <div className={style.imageBox1}>
@@ -110,7 +130,7 @@ export default function AbstractAndBackdrop() {
           </div>
 
           <p className={style.normalText}>
-            According to Statista Global Consumer Survey (2021), out of 74 countries.
+            According to Triple A, these are the number of crypto owners around the world.
           </p>
 
 

@@ -24,52 +24,62 @@ const LinksButton = () => {
               </p>
             </div></Link>
 
-              <Link href="/v1/progress"><div className={style.linkBox}>
+              <Link href="/v1/abstractandbackdrop"><div className={style.linkBox}>
               <p className={style.linkText}>
                 {"> Abstract and Backdrop"}
               </p>
             </div></Link>
-              <Link href="/v1/progress"><div className={style.linkBox}>
+            <Link href="/v1/abstractandbackdrop#nft"><div className={style.linkBox}>
+              <p className={style.linkText}>
+                {"> NFT"}
+              </p>
+            </div></Link>
+            <Link href="/v1/abstractandbackdrop#cryptocurrency"><div className={style.linkBox}>
+              <p className={style.linkText}>
+                {"> Cryptocurrency"}
+              </p>
+            </div></Link>
+            <Link href="/v1/abstractandbackdrop"><div className={style.linkBox}>
+              <p className={style.linkText}>
+                {"> Blockchain"}
+              </p>
+            </div></Link>
+              <Link href="/v1/rckventures"><div className={style.linkBox}>
               <p className={style.linkText}>
               {"> Our Vision To Venture"}
               </p>
             </div></Link>
-              <Link href="/v1/progress"><div className={style.linkBox}>
+              <Link href="/v1/rckventures/rpsnftgame"><div className={style.linkBox}>
               <p className={style.linkText}>
               {"> RPS NFT Game"}
               </p>
             </div></Link>
-              <Link href="/v1/progress"><div className={style.linkBox}>
+              <Link href="/v1/rckventures/gamemechanics"><div className={style.linkBox}>
               <p className={style.linkText}>
               {"> Game Mechanics"}
               </p>
             </div></Link>
-              <Link href="/v1/progress"><div className={style.linkBox}>
-              <p className={style.linkText}>
-              {"> Setup Crypto Wallet"}
-              </p>
-            </div>
-            </Link>
-             <Link href="/v1/progress">
+          
+             <Link href="/v1/tokenomiks">
                 <div className={style.linkBox}>
                   <p className={style.linkText}>
                   {"> Tokenomiks"}
                   </p>
                 </div>
              </Link>
-              <Link href="/v1/progress">
+              <Link href="/v1/initialfundsanduse">
                 <div className={style.linkBox}>
                   <p className={style.linkText}>
                   {"> Target Funds and Uses"}
                   </p>
                 </div>
             </Link>
-              <Link href="/v1/progress"><div className={style.linkBox}>
+              <Link href="/v1/roadmap"><div className={style.linkBox}>
               <p className={style.linkText}>
-              {"> Forward Looking"}
+              {"> Roadmap"}
               </p>
             </div></Link>
-            <Link href="/v1/progress"><div className={style.linkBox}>
+            <Link href="/v1/faq"><div className={style.linkBox}>
               <p className={style.linkText}>
               {"> FAQ"}
               </p>

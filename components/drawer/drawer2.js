@@ -3,11 +3,19 @@ import * as style from "@/styles/drawer2.module.css"
 import {MdKeyboardArrowDown} from "react-icons/md"
 import Link from 'next/link'
 
-const Drawer2 = ({contents , title, closeAll}) => {
+const Drawer2 = ({contents , title,  setDrawer, drawer}) => {
   
-    const [open, setOpen] = React.useState(false)
     const [height, setHeight] = React.useState("80px")
 
+
+    const toggleDrawer = () =>{
+        if(drawer === title){
+            setDrawer(null)
+        }else{
+            setDrawer(title)
+        }
+        
+    }
 
     const computeLength = () => {
         switch (contents.length) {
@@ -27,23 +35,18 @@ const Drawer2 = ({contents , title, closeAll}) => {
         computeLength()
     }, [])
 
-    React.useEffect(() => {
-        if(closeAll){
-            setOpen(false)
-        }
-    }, [closeAll])
 
   return (
     <div className={style.main}>
 
         {/* ************************************************ */}
 
-        <div  className={style.drawerButton} onClick={()=>{setOpen(!open)}}>
+        <div  className={style.drawerButton} onClick={toggleDrawer}>
         <h4 className={style.buttonText}>{title}</h4>
-        <MdKeyboardArrowDown className={open? style.svgUp : style.svgDown} />
+        <MdKeyboardArrowDown className={drawer === title? style.svgUp : style.svgDown} />
         </div>
 
-        <div className={open ? style.drawerOpen : style.drawerClose} style={{height: height}}>
+        <div className={drawer === title ? style.drawerOpen : style.drawerClose} style={{height: height}}>
             {contents.map((content)=>{
                 return(
                     <div  className={style.buttonBox}>

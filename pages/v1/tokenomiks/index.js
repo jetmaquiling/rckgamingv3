@@ -33,17 +33,18 @@ export default function Tokenomiks() {
         
         <div className={style.contentBox}>
           
-    
-          <div className={style.imageBox1}>
-            <img src="/Images/tokenomiks/Slide1.JPG" className={style.image1}/>
-          </div>
-
           <p className={style.normalText}>
             Token - RCK Token <br/>
             Blockchain network - Binance Smartchain (BSC) <br/>
             Conversion from  - BNB <br/>
             Total Token Supply - 1,000,000,000 <br/>
           </p>
+    
+          <div className={style.imageBox1}>
+            <img src="/Images/tokenomiks/Slide1.JPG" className={style.image1}/>
+          </div>
+
+          
 
           <div className={style.dash}/>
           <p className={style.subText} >

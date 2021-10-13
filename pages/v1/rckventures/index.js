@@ -100,7 +100,6 @@ export default function Disclaimer() {
             <img src="/Images/ventures/Slide5.JPG" className={style.image1}/>
           </div>
           <p className={style.normalText}>
-            [To be developed]
             Decentralized Finance Platforms
             (DeFi) [To be developed]
           </p>

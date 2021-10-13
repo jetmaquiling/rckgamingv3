@@ -40,6 +40,10 @@ export default function MetamaskWallet() {
           <p className={style.normalText}>
             MetaMask allows users to store and wallet accounts, make transactions, send and receive cryptocurrencies, NFT's and tokens, and securely connect to blockchain applications. It is compatible with web browser or the mobile app's built-in browser. <a href="https://metamask.io/">Click this Link to learn more metamask.io</a>
           </p>
+          
+          <div className={style.videoContainer}>
+          <iframe className={style.video} src="https://www.youtube.com/embed/S3lbmvmgrj0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
 
           <p className={style.title1Text}>
             Step 1 - Download Metamask

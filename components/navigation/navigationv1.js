@@ -16,8 +16,8 @@ const DrawerContent1 = [
 
 const DrawerContent2 = [
   {url: '/v1/abstractandbackdrop' , label: 'Blockchain'},
-  {url: '/v1/abstractandbackdrop' , label: 'Cyptocurrency'},
-  {url: '/v1/abstractandbackdrop' , label: 'NFT'},
+  {url: '/v1/abstractandbackdrop#cyptocurrency' , label: 'Cyptocurrency'},
+  {url: '/v1/abstractandbackdrop#nft' , label: 'NFT'},
 ]
 
 
@@ -38,7 +38,7 @@ const DrawerContent4 = [
 
 const NavigationV1 = ({pos,open, setOpen}) => {
   
-  const [closeAll, setCloseAll] = React.useState(false)
+  const [drawer, setDrawer] = React.useState(null)
 
   return (
     <div className={open  ? style.off : style.main}>
@@ -54,7 +54,7 @@ const NavigationV1 = ({pos,open, setOpen}) => {
               <h3 className={style.logoTitle3}>ROCK Token</h3>
           </div>
 
-          <div className={style.navbar3} onClick={()=>{setOpen(!open); setCloseAll(true)}}>      
+          <div className={style.navbar3} onClick={()=>{setOpen(!open)}}>      
                 <MdClose className={style.icon} />
           </div>
           
@@ -66,11 +66,12 @@ const NavigationV1 = ({pos,open, setOpen}) => {
               <div  className={style.buttonBox}>
                 <Link href="/"><h4 className={style.h4animate}>Homepage</h4></Link>
               </div>
-              <Drawer1 title="Get Started" contents={DrawerContent1} closeAll={closeAll} />
+              
+              <Drawer1 title="Get Started" contents={DrawerContent1} drawer={drawer} setDrawer={setDrawer} />
 
-              <Drawer1 title="Abstract & Backdrop" contents={DrawerContent2} closeAll={closeAll} />
+              <Drawer1 title="Abstract & Backdrop" contents={DrawerContent2} drawer={drawer} setDrawer={setDrawer} />
 
-              <Drawer1 title="RCK Ventures" contents={DrawerContent3} closeAll={closeAll} />
+              <Drawer1 title="RCK Ventures" contents={DrawerContent3} drawer={drawer} setDrawer={setDrawer} />
 
               <div  className={style.buttonBox}>
                 <Link href="/v1/tokenomiks"><h4 className={style.h4animate}>Tokenomiks</h4></Link>
@@ -85,7 +86,7 @@ const NavigationV1 = ({pos,open, setOpen}) => {
               </div>
 
 
-              <Drawer1 title="Setup CryptoWallet" contents={DrawerContent4} closeAll={closeAll} />
+              <Drawer1 title="Setup CryptoWallet" contents={DrawerContent4} drawer={drawer} setDrawer={setDrawer} />
 
         </div>
         <div className={style.rightsBox}>

@@ -14,8 +14,8 @@ const DrawerContent1 = [
 
 const DrawerContent2 = [
   {url: '/v1/abstractandbackdrop' , label: 'Blockchain'},
-  {url: '/v1/abstractandbackdrop' , label: 'Cyptocurrency'},
-  {url: '/v1/abstractandbackdrop' , label: 'NFT'},
+  {url: '/v1/abstractandbackdrop#cyptocurrency' , label: 'Cyptocurrency'},
+  {url: '/v1/abstractandbackdrop#nft' , label: 'NFT'},
 ]
 
 
@@ -37,7 +37,8 @@ const DrawerContent4 = [
 
 const NavigationV2 = () => {
 
-  const [closeAll, setCloseAll] = React.useState(false)
+
+  const [drawer, setDrawer] = React.useState(null)
 
   return (
       <div className={style.sideBar}>
@@ -49,11 +50,11 @@ const NavigationV2 = () => {
                 <div className={style.buttonBox}>
                   <Link href="/Files/RCK Whitepaper.pdf"><h4 className={style.buttonText}>Download Whitepaper</h4></Link>
                 </div>
-                <Drawer2 title="Get Started" contents={DrawerContent1} closeAll={closeAll} />
+                <Drawer2 title="Get Started" contents={DrawerContent1} drawer={drawer} setDrawer={setDrawer}  />
 
-                <Drawer2 title="Abstract & Backdrop" contents={DrawerContent2} closeAll={closeAll} />
+                <Drawer2 title="Abstract & Backdrop" contents={DrawerContent2} drawer={drawer} setDrawer={setDrawer}  />
 
-                <Drawer2 title="RCK Ventures" contents={DrawerContent3} closeAll={closeAll} />
+                <Drawer2 title="RCK Ventures" contents={DrawerContent3} drawer={drawer} setDrawer={setDrawer}  />
 
                 <div className={style.buttonBox}>
                   <Link href="/v1/tokenomiks"><h4 className={style.buttonText}>Tokenomiks</h4></Link>
@@ -71,7 +72,7 @@ const NavigationV2 = () => {
                   <Link href="/v1/progress"><h4 className={style.buttonText}>Privacy Policy</h4></Link>
                 </div>
 
-                <Drawer2 title="Setup CryptoWallet" contents={DrawerContent4} closeAll={closeAll} />
+                <Drawer2 title="Setup CryptoWallet" contents={DrawerContent4} drawer={drawer} setDrawer={setDrawer}  />
           </div>
   )
 }
