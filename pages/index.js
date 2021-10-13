@@ -46,11 +46,11 @@ export default function Home() {
                     <h4 className={style.h4animate}>Whitepaper </h4> <MdArrowForward  className={style.icon}/>
                   </div>
                 </Link>
-                <a href='https://hub.rpsaxess.io/' target="_blank">
+                <Link href='/v1/roadmap' >
                   <div className={`${style.buttonBox} ${style.buttonBox1}`} >
                     <h4 className={style.h4animate}>Buy RCK Now</h4> <MdArrowForward  className={style.icon}/>
                   </div>
-                </a>
+                </Link>
               </div>
 
             </div>
@@ -118,9 +118,9 @@ export default function Home() {
           </LazyLoad>
       </div>
 
-      <LazyLoad height={100}>
+      {/* <LazyLoad height={100}>
         <Countdown/>
-      </LazyLoad>
+      </LazyLoad> */}
 
       <div className={`${style.section} ${style.section3}`}>
         <LazyLoad height={100}>
