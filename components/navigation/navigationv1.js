@@ -88,6 +88,10 @@ const NavigationV1 = ({pos,open, setOpen}) => {
 
               <Drawer1 title="Setup CryptoWallet" contents={DrawerContent4} drawer={drawer} setDrawer={setDrawer} />
 
+              <div  className={style.buttonBox}>
+                <Link href="/v1/network"><h4 className={style.h4animate}>Add Network</h4></Link>
+              </div>
+
         </div>
         <div className={style.rightsBox}>
                     <p className={style.rightsText}>2021 © RCKgaming.io | All rights reserved</p>

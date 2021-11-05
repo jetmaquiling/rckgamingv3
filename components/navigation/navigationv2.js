@@ -72,6 +72,10 @@ const NavigationV2 = () => {
                   <Link href="/v1/progress"><h4 className={style.buttonText}>Privacy Policy</h4></Link>
                 </div>
 
+                <div className={style.buttonBox}>
+                  <Link href="/v1/network"><h4 className={style.buttonText}>Add BNB Network</h4></Link>
+                </div>
+
                 <Drawer2 title="Setup CryptoWallet" contents={DrawerContent4} drawer={drawer} setDrawer={setDrawer}  />
           </div>
   )
