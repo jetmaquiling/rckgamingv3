@@ -30,7 +30,7 @@ export default function Home() {
   const addRCK = async () =>{
     const tokenAddress = '0xF305B7eD52c5C45068e7E697c28cDECd13e8115b';
     const tokenSymbol = 'RCK';
-    const tokenDecimals = 18;
+    const tokenDecimals = 8;
     const tokenImage = 'https://hub.rpsaxess.io/Content/graphix/rck_dark_sm.png';
 
     try {
