@@ -46,9 +46,9 @@ export default function Home() {
                     <h4 className={style.h4animate}>Whitepaper </h4> <MdArrowForward  className={style.icon}/>
                   </div>
                 </Link>
-                <Link href='/v1/roadmap' >
+                <Link href='https://hub.rpsaxess.io/' >
                   <div className={`${style.buttonBox} ${style.buttonBox1}`} >
-                    <h4 className={style.h4animate}>Roadmap</h4> <MdArrowForward  className={style.icon}/>
+                    <h4 className={style.h4animate}>Buy RCK Now!</h4> <MdArrowForward  className={style.icon}/>
                   </div>
                 </Link>
               </div>
