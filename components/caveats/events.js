@@ -14,7 +14,7 @@ const Events = () => {
                     </div>
                     <div  className={style.contentBox}>
                         <h3  className={style.titleText}>Pre-Launch RCK TOKEN</h3>
-                        <p  className={style.dateText}>October 10 2021 - October 13, 2021</p>
+                        <p  className={style.dateText}>January 1, 2002 - February 28, 2022</p>
                         <p  className={style.normalText}>Pre-selling is a practice performed by some crypto projects ahead of an initial coin offering, in which tokens are sold to interested parties at a certain price. This could be considered beneficial for both investors and the development team, if all was to go well and the digital currency was to be a success. </p>
                         <div className={style.buttonBox}>
                             <Link href="/v1"><h4 className={style.buttonText}>Learn More</h4></Link>

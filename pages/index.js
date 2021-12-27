@@ -72,11 +72,20 @@ export default function Home() {
                 <p className={style.textBody2}>A Rock is connotes formidability and stability that is the bedrock of mountains or temple.</p>
                 <p className={style.textBody2}>This is the spirit behind the Rock Token.</p>
                 <p className={style.textBody2}>Rock refer to the overall eco-system with initiatives called “projects” exclusively using ROCK Token or RCK Token.</p>
+                <div  className={style.buttonContainer} >
                   <Link href='/v1'>
                     <div  className={`${style.buttonBox} ${style.buttonBox2}`} >
                       <h4 className={style.h4animate}>Read Documentation</h4><MdArrowForward   className={style.icon}/>
                     </div>
                   </Link>
+                  <Link href='https://hub.rpsaxess.io/'>
+                    <div  className={`${style.buttonBox} ${style.buttonBox2}`} >
+                      <h4 className={style.h4animate}>Buy RCK Token</h4><MdArrowForward   className={style.icon}/>
+                    </div>
+                  </Link>
+                </div>
+                  
+                  
               </div>
               
               <div className={style.documentContainer}>
@@ -100,7 +109,7 @@ export default function Home() {
                     <br/>
                    
                     <h1 className={style.titleBody2}>  <MdShoppingCart className={style.symbol} style={{color:'#001f47'}}/> Buy & Sell</h1>
-                    <p className={style.textBody2}>RCK Token works with exchange partners all around the world to make buying cryptocurrencies in your wallet both a seamless and secure experience.</p>
+                    <p className={style.textBody2}>RCK Token is working with exchange partners all around the world to make buying cryptocurrencies in your wallet both a seamless and secure experience.</p>
                 </div>
 
                 <div className={style.documentBox}>
@@ -135,9 +144,9 @@ export default function Home() {
                 <h1 className={style.titleBody3}>Initial Funds And Use</h1>
                 <img src='/Images/FundsandUse.jpg' alt="Initial Funds And Use"  className={style.tokenomiksImage}  />
               </div>
-
           </div>
         </LazyLoad>
+        
       </div>
       
       <Events/>
