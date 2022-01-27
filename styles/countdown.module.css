@@ -114,7 +114,7 @@
 
 .buttonBox2{
     padding: 15px 50px;
-    margin: 25px 0px;
+    margin: 25px 5px;
 }
 
 .h4animate{
@@ -225,8 +225,14 @@
 	}
 
 	
-
-
+	.buttonContainer{
+		flex-direction: column;
+		text-align: center;
+	}
+	.buttonBox2{
+		padding: 15px 50px;
+		margin: 10px 5px;
+	}
    
 
 }

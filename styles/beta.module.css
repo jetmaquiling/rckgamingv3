@@ -1,0 +1,59 @@
+.main {
+    width: 100%;
+    background-color: #001f47;
+    height: 100%;
+    min-height: 120vh;
+    overflow: hidden;
+    background-image: url("/Background/pattern-randomized.svg");
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   align-items: center;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    margin: 75px 5px;
+}
+
+.section h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.section p{
+    font-size: 18px;
+}
+
+.choiceBox{
+    display: flex;
+    justify-content: center;
+}
+
+.buttonBox{
+    cursor: pointer;
+    margin: 5px;
+    background-color: #fff;
+    transition: 0.5s;
+    border-radius: 5px;
+    background: linear-gradient(-45deg, #23d5ab, #263ce391,  #263de3, #23d5abc4);
+    background-size: 400% 400%;
+    padding: 10px;
+    min-width: 150px;
+}
+
+.buttonBox svg{
+    font-size: 40px !important;
+    color: #fff !important;
+}
+
+.h4animate{
+    margin: 0px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 300;
+}

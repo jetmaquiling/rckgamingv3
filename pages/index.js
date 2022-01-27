@@ -127,9 +127,9 @@ export default function Home() {
           </LazyLoad>
       </div>
 
-      {/* <LazyLoad height={100}>
+      <LazyLoad height={100}>
         <Countdown/>
-      </LazyLoad> */}
+      </LazyLoad>
 
       <div className={`${style.section} ${style.section3}`}>
         <LazyLoad height={100}>

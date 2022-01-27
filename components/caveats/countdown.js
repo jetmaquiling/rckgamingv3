@@ -19,7 +19,7 @@ const Countdown = () => {
 
     React.useEffect(() => {
         setInterval(() => {
-            const then = moment("10 13 2021, 24:00", "MM DD YYYY, h:mm");
+            const then = moment("02 28 2022, 24:00", "MM DD YYYY, h:mm");
             const now = moment();
             if(then < now){
                 setTime({ days: undefined , hours: undefined, minutes: undefined, seconds: undefined });
@@ -43,7 +43,7 @@ const Countdown = () => {
             <p  className={style.subtitle}>Join the RCK Community to discuss where the markets are heading. </p>
             <p  className={style.subtitle}>We accept BNB Tokens.</p>
 
-            <div className={style.backdrop}>
+            {/* <div className={style.backdrop}>
                 <div className={style.countdownwrapper}>
                  
                     <div className={style.countdownitem}>
@@ -75,23 +75,36 @@ const Countdown = () => {
                  
                 </div>
                 <div  className={style.buttonContainer} >
-                    <a href="https://hub.rpsaxess.io/" target="_blank">
+                    <Link href="https://hub.rpsaxess.io/">
                       <div  className={`${style.buttonBox} ${style.buttonBox2}`} >
                         <h4 className={style.h4animate}>{"Buy Tokens >"}</h4>
                       </div>
-                    </a>
+                    </Link>
                 </div>
-            </div>
+            </div> */}
+             <div  className={style.buttonContainer} >
+                    <Link href="https://hub.rpsaxess.io/">
+                      <div  className={`${style.buttonBox} ${style.buttonBox2}`} >
+                        <h4 className={style.h4animate}>{"Buy RCK Tokens >"}</h4>
+                      </div>
+                    </Link>
+                    <Link href="https://hub.rpsaxess.io/">
+                      <div  className={`${style.buttonBox} ${style.buttonBox2}`} >
+                        <h4 className={style.h4animate}>{"How to Buy RCK Tokens? >"}</h4>
+                      </div>
+                    </Link>
+                </div>
+
             <div className={style.infoContainer} >
               <div className={style.infoRow} >
                 <div className={style.info} >
                   <h4 className={style.label} >Starting Time:</h4>
-                  <h4 className={style.infoData}>OCT 9, 2021 (SAT 12:00 PM)</h4>
+                  <h4 className={style.infoData}>Jan 1, 2022 (SAT 12:00 PM)</h4>
                 </div>
                
                 <div className={style.info} >
                   <h4 className={style.label} >Ending time:</h4>
-                  <h4 className={style.infoData}>OCT 13, 2021 (WED 12:00 PM)</h4>
+                  <h4 className={style.infoData}>Feb 28, 2022 (WED 12:00 PM)</h4>
                 </div>
 
               </div>
@@ -105,7 +118,7 @@ const Countdown = () => {
 
                 <div className={style.info} >
                   <h4 className={style.label} >Tokens exchange rate:</h4>
-                  <h4 className={style.infoData}>1 RCK = 0.00000901 BNB</h4>
+                  <h4 className={style.infoData}>1 RCK = 0.00001093 BNB</h4>
                 </div>
 
               </div>
@@ -114,7 +127,7 @@ const Countdown = () => {
               <div className={style.infoRow} >
                 <div className={style.info} >
                   <h4 className={style.label} >Tokens exchange rate:</h4>
-                  <h4 className={style.infoData}>1 RCK = $0.004</h4>
+                  <h4 className={style.infoData}>1 RCK = $0.006</h4>
                 </div>
 
                 <div className={style.info} >
@@ -124,8 +137,10 @@ const Countdown = () => {
                 
               </div>
 
+              
+             
             </div>
-                
+            
         </div>
   )
 }
